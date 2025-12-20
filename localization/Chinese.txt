@@ -6,7 +6,7 @@
   },
   {
     "id": "translationNote2",
-    "value": "要翻译此文档，请先点击<u>Save</u>将当前翻译下载，下载完成之后您可以将 txt 文件格式化为 json 方便阅读。之后您可以将任意文本并将其替换为您的翻译，保存之后点击 <u>Load</u> 选中您翻译的文件即可加载翻译。"
+    "value": "要翻译此文档，请先点击<u>Save</u>将当前翻译下载。之后您可以将任意文本并将其替换为您的翻译，保存之后点击 <u>Load</u> 选中您翻译的文件即可加载翻译。"
   },
   {
     "id": "translationNote2b",
@@ -14,47 +14,47 @@
   },
   {
     "id": "translationNote3",
-    "value": "对于 Crocotile 3D 软件的翻译。您可以将保存好的翻译文件放 入Crocotile 3D 的 localization 文件夹中，然后运行 Crocotile。通过“Help > About”打开“关于”面板，或按下 <u>F2</u>。在 “Language” 下拉菜单中选择该翻译。"
+    "value": "对于 Crocotile 3D 软件的翻译。您可以将保存好的翻译文件放入 Crocotile 3D 的 localization 文件夹中，然后运行 Crocotile。通过“Help > About”打开“关于”面板，或按下 <u>F2</u>。在 “Language” 下拉菜单中选择该翻译。"
   },
-  { "id": "menubarFile", "value": "File" },
-  { "id": "menubarNewScene", "value": "New Scene" },
-  { "id": "menubarLoadScene", "value": "Load Scene" },
-  { "id": "menubarLoadRecentScene", "value": "Load Recent Scene" },
-  { "id": "menubarClearRecent", "value": "Clear Recent" },
-  { "id": "menubarLoadPinnedScene", "value": "Load Pinned Scene" },
-  { "id": "menubarPinUnpinScene", "value": "Pin/Unpin Scene" },
-  { "id": "menubarSaveScene", "value": "Save Scene" },
-  { "id": "menubarSaveSceneAs", "value": "Save Scene As..." },
-  { "id": "menubarImportScene", "value": "Import Scene" },
-  { "id": "menubarImportModel", "value": "Import Model" },
-  { "id": "menubarExportScene", "value": "Export Scene" },
-  { "id": "menubarExportObjects", "value": "Export Objects" },
-  { "id": "menubarExit", "value": "Exit" },
-  { "id": "menubarEdit", "value": "Edit" },
-  { "id": "menubarUndo", "value": "Undo" },
-  { "id": "menubarRedo", "value": "Redo" },
-  { "id": "menubarSettings", "value": "Settings" },
-  { "id": "menubarButtons", "value": "Buttons" },
-  { "id": "menubarCamera", "value": "Camera" },
-  { "id": "menubarPerspective", "value": "Perspective" },
-  { "id": "menubarOrthographic", "value": "Orthographic" },
-  { "id": "menubarSkybox", "value": "Skybox" },
-  { "id": "menubarSelectImage", "value": "Select Image" },
-  { "id": "menubarShowHide", "value": "Show/Hide" },
-  { "id": "exportSkybox", "value": "Export Skybox" },
-  { "id": "menubarRender", "value": "Render" },
-  { "id": "menubarSpinGif", "value": "Spin Gif" },
-  { "id": "movie", "value": "Movie" },
-  { "id": "menubarHelp", "value": "Help" },
-  { "id": "menubarHowTo", "value": "How To..." },
-  { "id": "menubarAbout", "value": "About" },
+  { "id": "menubarFile", "value": "文件" },
+  { "id": "menubarNewScene", "value": "新场景" },
+  { "id": "menubarLoadScene", "value": "加载场景" },
+  { "id": "menubarLoadRecentScene", "value": "加载最近的场景" },
+  { "id": "menubarClearRecent", "value": "清除自动保存的场景t" },
+  { "id": "menubarLoadPinnedScene", "value": "加载已置顶场景" },
+  { "id": "menubarPinUnpinScene", "value": "固定/取消固定场景" },
+  { "id": "menubarSaveScene", "value": "保存场景" },
+  { "id": "menubarSaveSceneAs", "value": "保存场景到..." },
+  { "id": "menubarImportScene", "value": "导入场景" },
+  { "id": "menubarImportModel", "value": "导入模型" },
+  { "id": "menubarExportScene", "value": "导出场景" },
+  { "id": "menubarExportObjects", "value": "导出对象" },
+  { "id": "menubarExit", "value": "退出" },
+  { "id": "menubarEdit", "value": "编辑" },
+  { "id": "menubarUndo", "value": "撤销" },
+  { "id": "menubarRedo", "value": "重做" },
+  { "id": "menubarSettings", "value": "设置" },
+  { "id": "menubarButtons", "value": "按钮" },
+  { "id": "menubarCamera", "value": "相机" },
+  { "id": "menubarPerspective", "value": "透视" },
+  { "id": "menubarOrthographic", "value": "正交" },
+  { "id": "menubarSkybox", "value": "天空盒" },
+  { "id": "menubarSelectImage", "value": "选择图片" },
+  { "id": "menubarShowHide", "value": "显示/隐藏" },
+  { "id": "exportSkybox", "value": "导出天空盒" },
+  { "id": "menubarRender", "value": "渲染" },
+  { "id": "menubarSpinGif", "value": "旋转 Gif" },
+  { "id": "movie", "value": "电影" },
+  { "id": "menubarHelp", "value": "帮助" },
+  { "id": "menubarHowTo", "value": "使用指南..." },
+  { "id": "menubarAbout", "value": "关于" },
   {
     "id": "unsavedNewScene",
-    "value": "There are unsaved changes! Creating a new scene will cause you to lose these changes."
+    "value": "There are unsaved changes! Creating a 新场景 will cause you to lose these changes."
   },
   {
     "id": "unsavedLoadScene",
-    "value": "There are unsaved changes! Loading a new scene will cause you to lose these changes."
+    "value": "There are unsaved changes! Loading a 新场景 will cause you to lose these changes."
   },
   {
     "id": "unsavedExit",
@@ -887,7 +887,7 @@
   { "id": "smoothingGroups", "value": "Smoothing Groups" },
   { "id": "group", "value": "Group" },
   { "id": "scene", "value": "Scene" },
-  { "id": "exportSceneData", "value": "Export Scene Data" },
+  { "id": "exportSceneData", "value": "导出场景数据" },
   { "id": "addLayer", "value": "Add Layer" },
   { "id": "addLight", "value": "Add Light" },
   { "id": "ambientLight", "value": "Ambient Light" },
@@ -1151,29 +1151,29 @@
   { "id": "binding_save_Desc", "value": "Save the currently open scene." },
   { "id": "binding_saveAs", "value": "Save As" },
   { "id": "binding_saveAs_Desc", "value": "Save the scene as a new file." },
-  { "id": "binding_newScene", "value": "New Scene" },
-  { "id": "binding_newScene_Desc", "value": "Create a new scene." },
+  { "id": "binding_newScene", "value": "新场景" },
+  { "id": "binding_newScene_Desc", "value": "Create a 新场景." },
   { "id": "binding_load", "value": "Load" },
   { "id": "binding_load_Desc", "value": "Load a scene." },
-  { "id": "binding_importModel", "value": "Import Model" },
+  { "id": "binding_importModel", "value": "导入模型" },
   {
     "id": "binding_importModel_Desc",
     "value": "Import a model (.c3dp, .obj, .gltf, .glb, .dae)."
   },
-  { "id": "binding_exportFile", "value": "Export Scene" },
+  { "id": "binding_exportFile", "value": "导出场景" },
   {
     "id": "binding_exportFile_Desc",
-    "value": "Export scene to .obj, .gltf, .glb, or .dae file."
+    "value": "导出场景 to .obj, .gltf, .glb, or .dae file."
   },
-  { "id": "binding_exportObjects", "value": "Export Objects" },
+  { "id": "binding_exportObjects", "value": "导出对象" },
   {
     "id": "binding_exportObjects_Desc",
-    "value": "Export objects to .obj, .gltf, .glb, or .dae file."
+    "value": "导出对象 to .obj, .gltf, .glb, or .dae file."
   },
   { "id": "binding_exportSelectedObjects", "value": "Export Selected Objects" },
   {
     "id": "binding_exportSelectedObjects_Desc",
-    "value": "Export objects to .obj, .gltf, .glb, or .dae file. The selected objects will automatically be checked in the export panel."
+    "value": "导出对象 to .obj, .gltf, .glb, or .dae file. The selected objects will automatically be checked in the export panel."
   },
   { "id": "binding_openRecentList", "value": "Open Recent List" },
   {
