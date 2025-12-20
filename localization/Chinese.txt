@@ -159,32 +159,32 @@
   { "id": "aperture", "value": "光圈" },
   { "id": "maxBlur", "value": "最大模糊" },
   { "id": "enable", "value": "启用" },
-  { "id": "renderCamera", "value": "Render Camera" },
-  { "id": "defaultCamera", "value": "Default Camera" },
+  { "id": "renderCamera", "value": "渲染相机" },
+  { "id": "defaultCamera", "value": "默认相机" },
   {
     "id": "selectCameraAlert",
-    "value": "Select one or more cameras to render!"
+    "value": "请选择一个或多个相机进行渲染！"
   },
-  { "id": "orthographicSettings", "value": "Orthographic Settings" },
-  { "id": "frustumAdjustment", "value": "Frustum Adjustment" },
-  { "id": "cameraSpin", "value": "Camera Spin" },
-  { "id": "viewport", "value": "Viewport" },
-  { "id": "cameraSpinFrames", "value": "Frames" },
-  { "id": "cameraSpinInvalidFrames", "value": "Frames is an invalid number!" },
+  { "id": "orthographicSettings", "value": "正交设置" },
+  { "id": "frustumAdjustment", "value": "视锥调整" },
+  { "id": "cameraSpin", "value": "相机旋转" },
+  { "id": "viewport", "value": "视口" },
+  { "id": "cameraSpinFrames", "value": "帧数" },
+  { "id": "cameraSpinInvalidFrames", "value": "帧数无效！" },
   {
     "id": "cameraSpinFrameInterval",
-    "value": "Frame Interval  (milliseconds)"
+    "value": "帧间隔（毫秒）"
   },
   {
     "id": "cameraSpinInvalidInterval",
-    "value": "Frame Interval is an invalid number!"
+    "value": "帧间隔无效！"
   },
-  { "id": "cameraSpinRotate", "value": "Rotate" },
-  { "id": "cameraSpinInvalidNumber", "value": "Rotate is an invalid number!" },
-  { "id": "cameraSpinRecording", "value": "Recording" },
-  { "id": "cameraSpinProcessing", "value": "Processing" },
-  { "id": "cameraSpinFinishedSaving", "value": "Finished Saving!" },
-  { "id": "reset", "value": "Reset" },
+  { "id": "cameraSpinRotate", "value": "旋转" },
+  { "id": "cameraSpinInvalidNumber", "value": "旋转值无效！" },
+  { "id": "cameraSpinRecording", "value": "正在录制" },
+  { "id": "cameraSpinProcessing", "value": "处理中" },
+  { "id": "cameraSpinFinishedSaving", "value": "保存完成！" },
+  { "id": "reset", "value": "重置" },
   { "id": "renderMovie", "value": "Render Movie" },
   { "id": "framerate", "value": "Framerate" },
   { "id": "quality", "value": "Quality" },
