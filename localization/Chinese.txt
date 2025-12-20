@@ -109,7 +109,7 @@
   { "id": "excludeUnusedTilesets", "value": "排除未使用的图块集" },
   { "id": "replaceObjects", "value": "用同名对象替换" },
   { "id": "mergeLayers", "value": "合并同名图层" },
-  { "id": "mergeTheatreActs", "value": "合并同名剧场幕" },
+  { "id": "mergeTheatreActs", "value": "整合同名幕" },
   { "id": "exportOptions", "value": "导出选项" },
   { "id": "includeObjects", "value": "包含对象" },
   { "id": "exportFileFormat", "value": "文件格式" },
