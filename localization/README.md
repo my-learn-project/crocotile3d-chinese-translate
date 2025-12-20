@@ -16,3 +16,14 @@ https://crocotile3d.com/localization.html
 | power of 2 textures| 使用 2 的幂次纹理 | wikipedia | https://zh.wikipedia.org/wiki/2%E7%9A%84%E5%B9%82 |
 | Orthographic Settings | 正交设置 | blunder | https://docs.blender.org/manual/zh-hans/5.0/editors/3dview/navigate/projections.html |
 | viewport | 视口 | unreal-engine | https://dev.epicgames.com/documentation/zh-cn/unreal-engine/viewport-controls-in-unreal-engine |
+| padNumber | 填充数字 | godotengine | https://docs.godotengine.org/zh-cn/4.x/tutorials/scripting/gdscript/gdscript_format_string.html#padding |
+| Skybox | 天空盒 | unity | https://docs.unity3d.com/cn/current/Manual/skyboxes-using.html |
+| Prefab | 预制件 | unity | https://docs.unity3d.com/cn/current/Manual/Prefabs.html |
+| Modulate2x | 双倍调制 | unreal-engine | https://dev.epicgames.com/documentation/zh-cn/unreal-engine/material-blend-modes-in-unreal-engine |
+
+
+
+
+
+
+

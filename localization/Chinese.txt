@@ -185,261 +185,261 @@
   { "id": "cameraSpinProcessing", "value": "处理中" },
   { "id": "cameraSpinFinishedSaving", "value": "保存完成！" },
   { "id": "reset", "value": "重置" },
-  { "id": "renderMovie", "value": "Render Movie" },
-  { "id": "framerate", "value": "Framerate" },
-  { "id": "quality", "value": "Quality" },
-  { "id": "combineActs", "value": "Combine Acts" },
-  { "id": "padNumber", "value": "Pad Number" },
-  { "id": "selectActAlert", "value": "Select one or more Acts to render!" },
-  { "id": "settings", "value": "Settings" },
-  { "id": "saveSettings", "value": "Save Settings" },
-  { "id": "loadSettings", "value": "Load Settings" },
-  { "id": "resetSettings", "value": "Reset Settings" },
+  { "id": "renderMovie", "value": "渲染影片" },
+  { "id": "framerate", "value": "帧率" },
+  { "id": "quality", "value": "质量" },
+  { "id": "combineActs", "value": "合并幕" },
+  { "id": "padNumber", "value": "填充数字" },
+  { "id": "selectActAlert", "value": "请选择一个或多个幕进行渲染！" },
+  { "id": "settings", "value": "设置" },
+  { "id": "saveSettings", "value": "保存设置" },
+  { "id": "loadSettings", "value": "加载设置" },
+  { "id": "resetSettings", "value": "重置设置" },
   {
     "id": "resetSettingsAlert",
-    "value": "Are you sure you want to reset the settings? This will set the program back to its default settings."
+    "value": "你确定要重置设置吗？这将把程序恢复到默认设置。"
   },
-  { "id": "settingsGeneral", "value": "General" },
-  { "id": "settingsResolution", "value": "Resolution" },
-  { "id": "settingsWindow", "value": "Window" },
-  { "id": "settingsFPS", "value": "FPS" },
-  { "id": "colorTheme", "value": "Color Theme" },
-  { "id": "buttonInputScale", "value": "Button &amp; Input Scale" },
-  { "id": "light", "value": "Light" },
-  { "id": "dark", "value": "Dark" },
-  { "id": "settingsShowRuler", "value": "Show Ruler" },
-  { "id": "settingsLockCrosshair", "value": "Lock Crosshair to the Grid" },
+  { "id": "settingsGeneral", "value": "常规" },
+  { "id": "settingsResolution", "value": "分辨率" },
+  { "id": "settingsWindow", "value": "窗口" },
+  { "id": "settingsFPS", "value": "帧率" },
+  { "id": "colorTheme", "value": "颜色主题" },
+  { "id": "buttonInputScale", "value": "按钮与输入缩放" },
+  { "id": "light", "value": "浅色" },
+  { "id": "dark", "value": "深色" },
+  { "id": "settingsShowRuler", "value": "显示标尺" },
+  { "id": "settingsLockCrosshair", "value": "将十字线锁定到网格" },
   {
     "id": "settingsSnapCrosshairToInstanceOrigin",
-    "value": "Snap Crosshair to Instance Origin"
+    "value": "将十字线吸附到实例原点"
   },
   {
     "id": "settingsIncrementRoundingCustom",
-    "value": "Increment Grid-Rounding Custom"
+    "value": "自定义网格增量取整"
   },
   {
     "id": "displayExtraViewportInformation",
-    "value": "Display extra viewport information"
+    "value": "显示额外视口信息"
   },
-  { "id": "settingsMouseFocusPanel", "value": "Mouse Auto-Focuses Panels" },
-  { "id": "settingsWireframe", "value": "Wireframe" },
-  { "id": "settingsWireframeColor", "value": "Wireframe Color" },
+  { "id": "settingsMouseFocusPanel", "value": "鼠标自动聚焦面板" },
+  { "id": "settingsWireframe", "value": "线框" },
+  { "id": "settingsWireframeColor", "value": "线框颜色" },
   {
     "id": "settingsWireframeHighlightColor",
-    "value": "Wireframe Highlight Color"
+    "value": "线框高亮颜色"
   },
-  { "id": "settingsCrosshairColor", "value": "Crosshair Color" },
-  { "id": "settingsBackgroundColor", "value": "Background Color" },
-  { "id": "settingsUsePaintColor", "value": "Use Paint Color" },
-  { "id": "settingsBackgroundAlpha", "value": "Background Transparency" },
-  { "id": "colorIsTransparent", "value": "Color is Transparent" },
+  { "id": "settingsCrosshairColor", "value": "十字线颜色" },
+  { "id": "settingsBackgroundColor", "value": "背景颜色" },
+  { "id": "settingsUsePaintColor", "value": "使用绘制颜色" },
+  { "id": "settingsBackgroundAlpha", "value": "背景透明度" },
+  { "id": "colorIsTransparent", "value": "颜色为透明" },
   {
     "id": "defaultAllowRefreshDefault",
-    "value": "Default Allow Refresh for Default Tilesets"
+    "value": "默认图块集允许刷新"
   },
-  { "id": "saveLoadUVTilesize", "value": "Save/Load UV Tilesize" },
-  { "id": "saveLoadGridRounding", "value": "Save/Load Grid rounding" },
-  { "id": "saveLoadCameraSettings", "value": "Save/Load Camera Settings" },
-  { "id": "viewCube", "value": "ViewCube" },
-  { "id": "viewCubeModelScale", "value": "ViewCube Model Scale" },
-  { "id": "viewCubeViewportRatio", "value": "ViewCube Viewport Ratio" },
-  { "id": "settingsBackupFolder", "value": "Backup folder" },
-  { "id": "settingsScreenshotFolder", "value": "Screenshot folder" },
-  { "id": "settingsFileDialogPaths", "value": "File Dialog Paths" },
-  { "id": "shared", "value": "Shared" },
-  { "id": "settingsChoose", "value": "Choose" },
-  { "id": "settingsBackupLimit", "value": "Backup limit" },
-  { "id": "settingsUndoLimit", "value": "Undo limit" },
-  { "id": "settingsProject", "value": "Project" },
-  { "id": "settingsBasePixelUnit", "value": "Base Pixel Unit" },
-  { "id": "texelDensity", "value": "Texel Density" },
-  { "id": "uvScaling", "value": "UV Scaling" },
-  { "id": "settingsSkyboxShape", "value": "Skybox Shape" },
-  { "id": "box", "value": "Box" },
-  { "id": "cylinder", "value": "Cylinder" },
-  { "id": "sphere", "value": "Sphere" },
-  { "id": "editButton", "value": "Edit" },
-  { "id": "settingsCurrentUnitScale", "value": "Current unit scale" },
-  { "id": "settingsNewUnitScale", "value": "New unit scale" },
-  { "id": "settingsPixelPerMeter", "value": "pixels per meter" },
-  { "id": "settingsResizeTheScene", "value": "Resize the scene" },
+  { "id": "saveLoadUVTilesize", "value": "保存/加载 UV 图块尺寸" },
+  { "id": "saveLoadGridRounding", "value": "保存/加载网格取整" },
+  { "id": "saveLoadCameraSettings", "value": "保存/加载相机设置" },
+  { "id": "viewCube", "value": "视图立方体" },
+  { "id": "viewCubeModelScale", "value": "视图立方体模型缩放" },
+  { "id": "viewCubeViewportRatio", "value": "视图立方体视口比例" },
+  { "id": "settingsBackupFolder", "value": "备份文件夹" },
+  { "id": "settingsScreenshotFolder", "value": "截图文件夹" },
+  { "id": "settingsFileDialogPaths", "value": "文件对话框路径" },
+  { "id": "shared", "value": "共享" },
+  { "id": "settingsChoose", "value": "选择" },
+  { "id": "settingsBackupLimit", "value": "备份上限" },
+  { "id": "settingsUndoLimit", "value": "撤销上限" },
+  { "id": "settingsProject", "value": "项目" },
+  { "id": "settingsBasePixelUnit", "value": "基础像素单位" },
+  { "id": "texelDensity", "value": "纹理密度" },
+  { "id": "uvScaling", "value": "UV 缩放" },
+  { "id": "settingsSkyboxShape", "value": "天空盒形状" },
+  { "id": "box", "value": "立方体" },
+  { "id": "cylinder", "value": "圆柱" },
+  { "id": "sphere", "value": "球体" },
+  { "id": "editButton", "value": "编辑" },
+  { "id": "settingsCurrentUnitScale", "value": "当前单位缩放" },
+  { "id": "settingsNewUnitScale", "value": "新单位缩放" },
+  { "id": "settingsPixelPerMeter", "value": "每米像素数" },
+  { "id": "settingsResizeTheScene", "value": "调整场景大小" },
   {
     "id": "settingsNotAValidNumber",
-    "value": "The values provided are not a valid number!"
+    "value": "提供的数值无效！"
   },
-  { "id": "applyButton", "value": "Apply" },
-  { "id": "settingsCamera", "value": "Camera" },
-  { "id": "nearPlane", "value": "Camera Frustum Near Plane" },
-  { "id": "settingsFrustumPlane", "value": "Camera Frustum Far Plane" },
-  { "id": "aspectRatio", "value": "Camera Aspect Ratio" },
-  { "id": "settingsFOV", "value": "Camera Field of View" },
-  { "id": "settingsCameraUpVector", "value": "Camera Up Vector" },
-  { "id": "zoomSpeed", "value": "Zoom Speed" },
-  { "id": "freeLookSensitivity", "value": "Freelook Sensitivity" },
-  { "id": "freeLookSpeed", "value": "Freelook Movement Speed" },
-  { "id": "freeLookFlat", "value": "Freelook Flat Movement" },
-  { "id": "freeLookInverted", "value": "Freelook Inverted" },
-  { "id": "settingsDrawMode", "value": "Draw Mode" },
-  { "id": "settingsOverlapTilebrush", "value": "Overlap Tilebrush" },
+  { "id": "applyButton", "value": "应用" },
+  { "id": "settingsCamera", "value": "相机" },
+  { "id": "nearPlane", "value": "相机视锥近裁剪面" },
+  { "id": "settingsFrustumPlane", "value": "相机视锥远裁剪面" },
+  { "id": "aspectRatio", "value": "相机纵横比" },
+  { "id": "settingsFOV", "value": "相机视野" },
+  { "id": "settingsCameraUpVector", "value": "相机上向量" },
+  { "id": "zoomSpeed", "value": "缩放速度" },
+  { "id": "freeLookSensitivity", "value": "自由视角灵敏度" },
+  { "id": "freeLookSpeed", "value": "自由视角移动速度" },
+  { "id": "freeLookFlat", "value": "自由视角平面移动" },
+  { "id": "freeLookInverted", "value": "自由视角反向" },
+  { "id": "settingsDrawMode", "value": "绘制模式" },
+  { "id": "settingsOverlapTilebrush", "value": "重叠图块刷" },
   {
     "id": "settingsAlignBrushToCrosshair",
-    "value": "Align Brush to Crosshair"
+    "value": "将刷子对齐到十字线"
   },
   {
     "id": "settingsEyedropTilesetOnly",
-    "value": "Copy/Apply Tileset only (not UVs)"
+    "value": "仅复制/应用图块集（不包括 UV）"
   },
   {
     "id": "settingsRelativeUVSampling",
-    "value": "Copy/Apply UVs (relative mode)"
+    "value": "复制/应用 UV（相对模式）"
   },
   {
     "id": "settingsTilebrushSizeUVs",
-    "value": "Set Tilebrush size from eyedropped UVs"
+    "value": "从吸色的 UV 设置图块刷大小"
   },
   {
     "id": "settingsOrientPrefabToCamera",
-    "value": "Orient Prefab/Primitive Brush to Camera &amp; Tilt"
+    "value": "将预制件/原始刷子朝向相机并倾斜"
   },
   {
     "id": "settingsStickyEdgeProportionate",
-    "value": "Sticky Edge Proportionate"
+    "value": "边缘粘附按比例"
   },
   {
     "id": "tileBrushTransparent",
-    "value": "Use Transparent mode for Tilebrush"
+    "value": "图块刷使用透明模式"
   },
   {
     "id": "vertexColorApplicationMode",
-    "value": "Vertex Color Application Mode"
+    "value": "顶点颜色应用模式"
   },
-  { "id": "eyedropVertexAlphaColor", "value": "Eyedrop Vertex Alpha Color" },
-  { "id": "modulate2x", "value": "Modulate2x vertex color blending" },
-  { "id": "defaultVertexColor", "value": "Default Vertex Color" },
-  { "id": "vertexColorMultiplier", "value": "Vertex Color Multiplier" },
+  { "id": "eyedropVertexAlphaColor", "value": "吸取顶点透明度颜色" },
+  { "id": "modulate2x", "value": "双倍调制顶点颜色混合" },
+  { "id": "defaultVertexColor", "value": "默认顶点颜色" },
+  { "id": "vertexColorMultiplier", "value": "顶点颜色倍增器" },
   {
     "id": "applyVertexColorMultiplier",
-    "value": "Apply Vertex Color Multiplier"
+    "value": "应用顶点颜色倍增器"
   },
-  { "id": "replaceColor", "value": "Replace Color" },
-  { "id": "applyColor", "value": "Apply Color" },
-  { "id": "settingsEditMode", "value": "Edit Mode" },
-  { "id": "settingsCameraBasedSelection", "value": "Camera Based Selection" },
+  { "id": "replaceColor", "value": "替换颜色" },
+  { "id": "applyColor", "value": "应用颜色" },
+  { "id": "settingsEditMode", "value": "编辑模式" },
+  { "id": "settingsCameraBasedSelection", "value": "基于相机的选择" },
   {
     "id": "settingsCameraBasedSingleClick",
-    "value": "Camera Based when single-clicking"
+    "value": "单击时基于相机选择"
   },
-  { "id": "settingsAutoDeselect", "value": "Deselect when single-clicking" },
+  { "id": "settingsAutoDeselect", "value": "单击时取消选择" },
   {
     "id": "settingsDeselectWithClick",
-    "value": "Deselect when clicked nothing"
+    "value": "点击空白处取消选择"
   },
-  { "id": "settingsCrosshairArrows", "value": "Crosshair Arrows" },
+  { "id": "settingsCrosshairArrows", "value": "十字线箭头" },
   {
     "id": "settingsReverseWithMirrorFlip",
-    "value": "Reverse with Mirror/Flip"
+    "value": "镜像/翻转时反转"
   },
-  { "id": "settingsGroupWASDUndos", "value": "Group WASD Undos" },
-  { "id": "settingsGizmo", "value": "Gizmo" },
-  { "id": "settingsPrioritizeGizmo", "value": "Prioritize Gizmo" },
-  { "id": "settingsObjectModeConstraint", "value": "Object Mode Constraint" },
-  { "id": "settingsObjectModeHideAll", "value": "Object Mode Hide All" },
-  { "id": "settingsVertexSize", "value": "Vertex Size" },
-  { "id": "displayLessVertices", "value": "Display Less Vertices" },
-  { "id": "settingsDisableFaceSelection", "value": "Disable Face Selection" },
-  { "id": "settingsDisableEdgeSelection", "value": "Disable Edge Selection" },
+  { "id": "settingsGroupWASDUndos", "value": "组合 WASD 撤销" },
+  { "id": "settingsGizmo", "value": "控制器" },
+  { "id": "settingsPrioritizeGizmo", "value": "优先使用控制器" },
+  { "id": "settingsObjectModeConstraint", "value": "对象模式约束" },
+  { "id": "settingsObjectModeHideAll", "value": "对象模式隐藏全部" },
+  { "id": "settingsVertexSize", "value": "顶点大小" },
+  { "id": "displayLessVertices", "value": "显示更少顶点" },
+  { "id": "settingsDisableFaceSelection", "value": "禁用面选择" },
+  { "id": "settingsDisableEdgeSelection", "value": "禁用边选择" },
   {
     "id": "settingsDisableVertexSelection",
-    "value": "Disable Vertex Selection"
+    "value": "禁用顶点选择"
   },
-  { "id": "overlappedVertexSelection", "value": "Overlapped Vertex Selection" },
+  { "id": "overlappedVertexSelection", "value": "重叠顶点选择" },
   {
     "id": "backfaceCulledVertexSelection",
-    "value": "Backface Culled Vertex Selection"
+    "value": "背面剔除顶点选择"
   },
-  { "id": "autoFlattenUVs", "value": "Auto-Flatten UVs when editing Vertices" },
-  { "id": "settingsSelectedFaceColor", "value": "Selected Face Color" },
-  { "id": "settingsSelectedFaceAlpha", "value": "Selected Face Transparency" },
-  { "id": "activeEditSelectedFaceColor", "value": "Active Edit Face Color" },
+  { "id": "autoFlattenUVs", "value": "编辑顶点时自动展开 UV" },
+  { "id": "settingsSelectedFaceColor", "value": "选中面颜色" },
+  { "id": "settingsSelectedFaceAlpha", "value": "选中面透明度" },
+  { "id": "activeEditSelectedFaceColor", "value": "活动编辑面颜色" },
   {
     "id": "activeEditSelectedFaceAlpha",
-    "value": "Active Edit Face Transparency"
+    "value": "活动编辑面透明度"
   },
-  { "id": "settingsTilesets", "value": "Tilesets" },
-  { "id": "settingsAutoRefreshTilesets", "value": "Auto refresh Tilesets" },
+  { "id": "settingsTilesets", "value": "图块集" },
+  { "id": "settingsAutoRefreshTilesets", "value": "自动刷新图块集" },
   {
     "id": "settingsAllowRefreshDefaultTilesets",
-    "value": "Allow Refresh Default"
+    "value": "允许刷新默认图块集"
   },
-  { "id": "settingsLinkExportedTilesets", "value": "Link exported Tilesets" },
-  { "id": "settingsDragMultipleUVs", "value": "Drag Multiple UVs" },
+  { "id": "settingsLinkExportedTilesets", "value": "关联导出的图块集" },
+  { "id": "settingsDragMultipleUVs", "value": "拖动多个 UV" },
   {
     "id": "settingsRestrictToCurrentTileset",
-    "value": "Hide UVs of non-active Tilesets"
+    "value": "隐藏非激活图块集的 UV"
   },
   {
     "id": "settingsShowUnselectedUVs",
-    "value": "Show UVs of unselected tiles"
+    "value": "显示未选中图块的 UV"
   },
   {
     "id": "settingsDeselectUVsWithSingleClick",
-    "value": "Deselect all UVs with single click"
+    "value": "单击取消所有 UV 选择"
   },
   {
     "id": "settingsKeepPixelScaleReassignTileset",
-    "value": "Keep UV pixel scale when reassigned tileset"
+    "value": "重新分配图块集时保持 UV 像素缩放"
   },
   {
     "id": "settingsSubtractPadding",
-    "value": "Subtract Padding from Tilebrush"
+    "value": "从图块刷中减去间距"
   },
   {
     "id": "settingsMultiplyPadding",
-    "value": "Multiply Padding by Tile selection"
+    "value": "按图块选择倍增间距"
   },
   {
     "id": "settingsShowEntireTileset",
-    "value": "Show entire Tileset in Painting panel"
+    "value": "在绘制面板显示整个图块集"
   },
-  { "id": "settingsTilesetDimensions", "value": "Max Tileset Dimensions" },
-  { "id": "settingsTilesetMargins", "value": "Tileset Margins" },
-  { "id": "settingsCheckeredSize", "value": "Checkered Size" },
+  { "id": "settingsTilesetDimensions", "value": "最大图块集尺寸" },
+  { "id": "settingsTilesetMargins", "value": "图块集边距" },
+  { "id": "settingsCheckeredSize", "value": "棋盘格大小" },
   {
     "id": "settingsPaintingRightMouseFunction",
-    "value": "Painting Right-Mouse Function"
+    "value": "绘制右键功能"
   },
-  { "id": "secondaryColor", "value": "Secondary Color" },
-  { "id": "settingsEyedropAlphaColor", "value": "Eyedrop Alpha Color" },
-  { "id": "settingsUniqueEraserAlpha", "value": "Unique Eraser Alpha Value" },
-  { "id": "settingsImportScale", "value": "Import Scale (non-native files)" },
-  { "id": "nestingContainerPadding", "value": "Nesting Container Padding" },
+  { "id": "secondaryColor", "value": "辅助颜色" },
+  { "id": "settingsEyedropAlphaColor", "value": "吸取透明度颜色" },
+  { "id": "settingsUniqueEraserAlpha", "value": "独特橡皮擦透明度" },
+  { "id": "settingsImportScale", "value": "导入缩放（非原生文件）" },
+  { "id": "nestingContainerPadding", "value": "嵌套容器间距" },
   {
     "id": "settingsAddToSceneTilted",
-    "value": "Add To Scene based on Camera and Tilt"
+    "value": "根据相机和倾斜添加到场景"
   },
-  { "id": "keepInstanceNamesUnique", "value": "Keep Instance Names Unique" },
+  { "id": "keepInstanceNamesUnique", "value": "保持实例名称唯一" },
   {
     "id": "keepOnTopAnimation",
-    "value": "Keep undocked Animation panel in front."
+    "value": "保持未停靠动画面板在前"
   },
-  { "id": "autoKeyPausedOnly", "value": "Auto Keyframe only when paused" },
+  { "id": "autoKeyPausedOnly", "value": "仅在暂停时自动关键帧" },
   {
     "id": "deselectKeyframesWithSingleClick",
-    "value": "Deselect all Keyframes with single click"
+    "value": "单击取消所有关键帧选择"
   },
   {
     "id": "deselectKeyframesBeforeSelecting",
-    "value": "Deselect all Keyframes before multi-selecting"
+    "value": "多选前取消所有关键帧选择"
   },
-  { "id": "statsIn", "value": "in" },
-  { "id": "statsScene", "value": "scene" },
-  { "id": "statsObjects", "value": "objects" },
-  { "id": "statsInstances", "value": "instances" },
-  { "id": "edges", "value": "edges" },
-  { "id": "statsVertices", "value": "vertices" },
-  { "id": "switchSides", "value": "Switch sides" },
-  { "id": "dock", "value": "Dock" },
-  { "id": "undock", "value": "Undock" },
+  { "id": "statsIn", "value": "在" },
+  { "id": "statsScene", "value": "场景" },
+  { "id": "statsObjects", "value": "对象" },
+  { "id": "statsInstances", "value": "实例" },
+  { "id": "edges", "value": "边" },
+  { "id": "statsVertices", "value": "顶点" },
+  { "id": "switchSides", "value": "切换侧边" },
+  { "id": "dock", "value": "停靠" },
+  { "id": "undock", "value": "取消停靠" },
   { "id": "modeButton", "value": "Draw/Edit Mode" },
   {
     "id": "cameraBasedSelectionButton",
