@@ -1,152 +1,151 @@
 [
-  { "id": "languageName", "value": "Chinese" },
+  { "id": "languageName", "value": "English" },
   {
     "id": "translationNote",
-    "value": "您愿意将此文档翻译成其他语言吗？非常感谢您的帮助！"
+    "value": "Would you like to translate this document to another language? Your help would be appreciated!"
   },
   {
     "id": "translationNote2",
-    "value": "要翻译此文档，请先点击<u>Save</u>将当前翻译下载。之后您可以将任意文本并将其替换为您的翻译，保存之后点击 <u>Load</u> 选中您翻译的文件即可加载翻译。"
+    "value": "To translate this document click on any text and replace it with your translation. Click <u>Save</u> at the top of the document to export the data. You can import the data you've previously saved by clicking <u>Load</u>."
   },
   {
     "id": "translationNote2b",
-    "value": "按下 <u>F8</u> 键，即可在当前编辑语言和英语之间快速切换。"
+    "value": "If you press <u>F8</u>, you can quickly switch between the current language you are editing and English."
   },
   {
     "id": "translationNote3",
-    "value": "对于 Crocotile 3D 软件的翻译。您可以将保存好的翻译文件放入 Crocotile 3D 的 localization 文件夹中，然后运行 Crocotile。通过“Help > About”打开“关于”面板，或按下 <u>F2</u>。在 “Language” 下拉菜单中选择该翻译。"
+    "value": "Place the saved translated file inside the localization folder and then run Crocotile. Open the About panel by going to Help &gt; About, or press F2. Choose the translation from the Language drop down menu."
   },
-  { "id": "menubarFile", "value": "文件" },
-  { "id": "menubarNewScene", "value": "新场景" },
-  { "id": "menubarLoadScene", "value": "加载场景" },
-  { "id": "menubarLoadRecentScene", "value": "加载最近的场景" },
-  { "id": "menubarClearRecent", "value": "清除自动保存的场景" },
-  { "id": "menubarLoadPinnedScene", "value": "加载已置顶场景" },
-  { "id": "menubarPinUnpinScene", "value": "固定/取消固定场景" },
-  { "id": "menubarSaveScene", "value": "保存场景" },
-  { "id": "menubarSaveSceneAs", "value": "保存场景到..." },
-  { "id": "menubarImportScene", "value": "导入场景" },
-  { "id": "menubarImportModel", "value": "导入模型" },
-  { "id": "menubarExportScene", "value": "导出场景" },
-  { "id": "menubarExportObjects", "value": "导出对象" },
-  { "id": "menubarExit", "value": "退出" },
-  { "id": "menubarEdit", "value": "编辑" },
-  { "id": "menubarUndo", "value": "撤销" },
-  { "id": "menubarRedo", "value": "重做" },
-  { "id": "menubarSettings", "value": "设置" },
-  { "id": "menubarButtons", "value": "按钮" },
-  { "id": "menubarCamera", "value": "相机" },
-  { "id": "menubarPerspective", "value": "透视" },
-  { "id": "menubarOrthographic", "value": "正交" },
-  { "id": "menubarSkybox", "value": "天空盒" },
-  { "id": "menubarSelectImage", "value": "选择图片" },
-  { "id": "menubarShowHide", "value": "显示/隐藏" },
-  { "id": "exportSkybox", "value": "导出天空盒" },
-  { "id": "menubarRender", "value": "渲染" },
-  { "id": "menubarSpinGif", "value": "旋转 Gif" },
-  { "id": "movie", "value": "电影" },
-  { "id": "menubarHelp", "value": "帮助" },
-  { "id": "menubarHowTo", "value": "使用指南..." },
-  { "id": "menubarAbout", "value": "关于" },
+  { "id": "menubarFile", "value": "File" },
+  { "id": "menubarNewScene", "value": "New Scene" },
+  { "id": "menubarLoadScene", "value": "Load Scene" },
+  { "id": "menubarLoadRecentScene", "value": "Load Recent Scene" },
+  { "id": "menubarClearRecent", "value": "Clear Recent" },
+  { "id": "menubarLoadPinnedScene", "value": "Load Pinned Scene" },
+  { "id": "menubarPinUnpinScene", "value": "Pin/Unpin Scene" },
+  { "id": "menubarSaveScene", "value": "Save Scene" },
+  { "id": "menubarSaveSceneAs", "value": "Save Scene As..." },
+  { "id": "menubarImportScene", "value": "Import Scene" },
+  { "id": "menubarImportModel", "value": "Import Model" },
+  { "id": "menubarExportScene", "value": "Export Scene" },
+  { "id": "menubarExportObjects", "value": "Export Objects" },
+  { "id": "menubarExit", "value": "Exit" },
+  { "id": "menubarEdit", "value": "Edit" },
+  { "id": "menubarUndo", "value": "Undo" },
+  { "id": "menubarRedo", "value": "Redo" },
+  { "id": "menubarSettings", "value": "Settings" },
+  { "id": "menubarButtons", "value": "Buttons" },
+  { "id": "menubarCamera", "value": "Camera" },
+  { "id": "menubarPerspective", "value": "Perspective" },
+  { "id": "menubarOrthographic", "value": "Orthographic" },
+  { "id": "menubarSkybox", "value": "Skybox" },
+  { "id": "menubarSelectImage", "value": "Select Image" },
+  { "id": "menubarShowHide", "value": "Show/Hide" },
+  { "id": "exportSkybox", "value": "Export Skybox" },
+  { "id": "menubarRender", "value": "Render" },
+  { "id": "menubarSpinGif", "value": "Spin Gif" },
+  { "id": "movie", "value": "Movie" },
+  { "id": "menubarHelp", "value": "Help" },
+  { "id": "menubarHowTo", "value": "How To..." },
+  { "id": "menubarAbout", "value": "About" },
   {
     "id": "unsavedNewScene",
-    "value": "有未保存的更改！创建一个新场景将导致这些更改丢失。"
+    "value": "There are unsaved changes! Creating a new scene will cause you to lose these changes."
   },
   {
     "id": "unsavedLoadScene",
-    "value": "有未保存的更改！加载一个新场景将导致这些更改丢失。"
+    "value": "There are unsaved changes! Loading a new scene will cause you to lose these changes."
   },
   {
     "id": "unsavedExit",
-    "value": "有未保存的更改！你确定要退出吗？"
+    "value": "There are unsaved changes! Are you sure you want to quit?"
   },
   {
     "id": "recentWrongPath",
-    "value": "该文件的路径错误。它是否已被移动？"
+    "value": "The path to this file is wrong. Has it been moved?"
   },
   {
     "id": "exportNoTiles",
-    "value": "已勾选“仅导出当前选中的图块”，但是当前图块集没有被使用的图块！请选择场景中已使用的图块集以导出这些图块。"
+    "value": "\"Limit export to currently selected tiles\" is checked, however, there are no tiles using the current tileset! Choose a tileset that has been used in the scene to export those tiles."
   },
-  { "id": "exportNoObjects", "value": "没有可导出的对象！" },
-  { "id": "selectLanguage", "value": "选择语言" },
+  { "id": "exportNoObjects", "value": "There are no objects to export!" },
+  { "id": "selectLanguage", "value": "Language" },
   {
     "id": "activationDetails",
-    "value": "保存超过 100 个图块并导出需要激活密钥。输入您的密钥以启用这些功能，或者继续使用未激活的版本。"
+    "value": "Saving with more than 100 tiles and exporting requires an activation key. Enter your key to enable these features, or continue without them."
   },
-  { "id": "activationEmail", "value": "邮箱" },
-  { "id": "activationKey", "value": "密钥" },
-  { "id": "registerButton", "value": "注册" },
-  { "id": "continueButton", "value": "继续" },
-  { "id": "invalidKey", "value": "许可证密钥无效。" },
+  { "id": "activationEmail", "value": "Email" },
+  { "id": "activationKey", "value": "Key" },
+  { "id": "registerButton", "value": "Register" },
+  { "id": "continueButton", "value": "Continue" },
+  { "id": "invalidKey", "value": "License key is invalid." },
   {
     "id": "activationFailed",
-    "value": "激活失败：请检查输入是否正确。如果问题仍然存在，请联系支持。"
+    "value": "Activation failed: Check that you have typed in everything correctly. If the problem persists, contact support."
   },
   {
     "id": "activationAttempts",
-    "value": "激活尝试次数过多！请联系支持并稍后再试。"
+    "value": "Too many activation attempts! Contact support and try again later."
   },
   {
     "id": "failedCode",
-    "value": "无效的代码：请检查代码输入是否正确。"
+    "value": "Invalid code: Check that you have typed the code correctly."
   },
-  { "id": "activationSuccess", "value": "完整版已激活！" },
-  { "id": "news", "value": "新闻" },
-  { "id": "updateReleased", "value": "已发布更新。" },
-  { "id": "version", "value": "版本" },
-  { "id": "isNowAvailable", "value": "现已可用。" },
-  { "id": "dontRemindMe", "value": "不再提醒" },
-  { "id": "okayButton", "value": "确定" },
-  { "id": "importOptions", "value": "导入选项" },
-  { "id": "include", "value": "包含" },
-  { "id": "importButton", "value": "导入" },
-  { "id": "includeSceneTiles", "value": "包含场景图块" },
+  { "id": "activationSuccess", "value": "Full version has been activated!" },
+  { "id": "news", "value": "News" },
+  { "id": "updateReleased", "value": "An update has been released." },
+  { "id": "version", "value": "Version" },
+  { "id": "isNowAvailable", "value": "is now available." },
+  { "id": "dontRemindMe", "value": "Don't remind me" },
+  { "id": "okayButton", "value": "Okay" },
+  { "id": "importOptions", "value": "Import Options" },
+  { "id": "include", "value": "Include" },
+  { "id": "importButton", "value": "Import" },
+  { "id": "includeSceneTiles", "value": "Include Scene Tiles" },
   {
     "id": "preventDuplicateTilesetNames",
-    "value": "防止重复的图块集名称"
+    "value": "Prevent Duplicate Tileset Names"
   },
-  { "id": "excludeUnusedTilesets", "value": "排除未使用的图块集" },
-  { "id": "replaceObjects", "value": "用同名对象替换" },
-  { "id": "mergeLayers", "value": "合并同名图层" },
-  { "id": "mergeTheatreActs", "value": "合并同名剧场幕" },
-  { "id": "exportOptions", "value": "导出选项" },
-  { "id": "includeObjects", "value": "包含对象" },
-  { "id": "exportFileFormat", "value": "文件格式" },
-  { "id": "exportMergeVertices", "value": "合并顶点" },
-  { "id": "exportVertexNormals", "value": "顶点法线" },
-  { "id": "exportFlat", "value": "平面" },
-  { "id": "exportSmooth", "value": "平滑" },
-  { "id": "vertexColorSpace", "value": "顶点颜色空间" },
-  { "id": "exportAngleThreshold", "value": "角度阈值" },
-  { "id": "exportPolygonType", "value": "多边形类型" },
-  { "id": "exportTriangles", "value": "三角形" },
-  { "id": "exportQuads", "value": "四边形" },
-  { "id": "exportUseGroups", "value": "使用分组" },
-  { "id": "exportSingleMesh", "value": "使用单一网格" },
-  { "id": "exportUnlit", "value": "非光照" },
-  { "id": "exportEmbedTextures", "value": "嵌入纹理" },
-  { "id": "exportBakedPose", "value": "导出烘焙姿势" },
-  { "id": "exportAllTextures", "value": "导出所有纹理" },
-  { "id": "exportTexturePrefix", "value": "纹理前缀" },
-  { "id": "none", "value": "无" },
-  { "id": "projectName", "value": "项目名称" },
-  { "id": "exportTileSpacing", "value": "图块间距" },
-  { "id": "tilesize", "value": "图块尺寸" },
-  { "id": "auto", "value": "自动" },
-  { "id": "unique", "value": "唯一" },
-  { "id": "exportPowerOfTwo", "value": "使用 2 的幂次纹理" },
+  { "id": "excludeUnusedTilesets", "value": "Exclude Unused Tilesets" },
+  { "id": "replaceObjects", "value": "Replace Objects with same name" },
+  { "id": "mergeLayers", "value": "Merge Layers with same name" },
+  { "id": "mergeTheatreActs", "value": "Merge Theatre Acts with same name" },
+  { "id": "exportOptions", "value": "Export Options" },
+  { "id": "includeObjects", "value": "Include objects" },
+  { "id": "exportFileFormat", "value": "File Format" },
+  { "id": "exportMergeVertices", "value": "Merge Vertices" },
+  { "id": "exportVertexNormals", "value": "Vertex Normals" },
+  { "id": "exportFlat", "value": "Flat" },
+  { "id": "exportSmooth", "value": "Smooth" },
+  { "id": "vertexColorSpace", "value": "Vertex Color Space" },
+  { "id": "exportAngleThreshold", "value": "Angle Threshold" },
+  { "id": "exportPolygonType", "value": "Polygon Type" },
+  { "id": "exportTriangles", "value": "Triangles" },
+  { "id": "exportQuads", "value": "Quads" },
+  { "id": "exportUseGroups", "value": "Use Groups" },
+  { "id": "exportSingleMesh", "value": "Use single mesh" },
+  { "id": "exportUnlit", "value": "Unlit" },
+  { "id": "exportEmbedTextures", "value": "Embed Textures" },
+  { "id": "exportBakedPose", "value": "Export Static Pose" },
+  { "id": "exportAllTextures", "value": "Export all textures" },
+  { "id": "exportTexturePrefix", "value": "Texture prefix" },
+  { "id": "none", "value": "None" },
+  { "id": "projectName", "value": "Project name" },
+  { "id": "exportTileSpacing", "value": "Tile Spacing" },
+  { "id": "tilesize", "value": "Tilesize" },
+  { "id": "auto", "value": "Auto" },
+  { "id": "unique", "value": "Unique" },
+  { "id": "exportPowerOfTwo", "value": "Use power of 2 textures" },
   {
     "id": "exportCurrentTileset",
-    "value": "仅导出当前选中的图块集"
+    "value": "Limit export to currently selected tileset"
   },
-  { "id": "exportUVAnimations", "value": "导出 UV 动画" },
-  { "id": "exportLights", "value": "导出灯光" },
-  { "id": "exportScale", "value": "缩放" },
-  { "id": "exportDecalOffset", "value": "贴花偏移" },
-  { "id": "exportButton", "value": "导出" },
-  { "id": "closeButton", "value": "关闭" },
-
+  { "id": "exportUVAnimations", "value": "Export UV Animations" },
+  { "id": "exportLights", "value": "Export Lights" },
+  { "id": "exportScale", "value": "Scale" },
+  { "id": "exportDecalOffset", "value": "Decal Offset" },
+  { "id": "exportButton", "value": "Export" },
+  { "id": "closeButton", "value": "Close" },
   { "id": "effects", "value": "Effects" },
   { "id": "fog", "value": "Fog" },
   { "id": "near", "value": "Near" },
@@ -888,7 +887,7 @@
   { "id": "smoothingGroups", "value": "Smoothing Groups" },
   { "id": "group", "value": "Group" },
   { "id": "scene", "value": "Scene" },
-  { "id": "exportSceneData", "value": "导出场景数据" },
+  { "id": "exportSceneData", "value": "Export Scene Data" },
   { "id": "addLayer", "value": "Add Layer" },
   { "id": "addLight", "value": "Add Light" },
   { "id": "ambientLight", "value": "Ambient Light" },
@@ -1152,29 +1151,29 @@
   { "id": "binding_save_Desc", "value": "Save the currently open scene." },
   { "id": "binding_saveAs", "value": "Save As" },
   { "id": "binding_saveAs_Desc", "value": "Save the scene as a new file." },
-  { "id": "binding_newScene", "value": "新场景" },
-  { "id": "binding_newScene_Desc", "value": "Create a 新场景." },
+  { "id": "binding_newScene", "value": "New Scene" },
+  { "id": "binding_newScene_Desc", "value": "Create a new scene." },
   { "id": "binding_load", "value": "Load" },
   { "id": "binding_load_Desc", "value": "Load a scene." },
-  { "id": "binding_importModel", "value": "导入模型" },
+  { "id": "binding_importModel", "value": "Import Model" },
   {
     "id": "binding_importModel_Desc",
     "value": "Import a model (.c3dp, .obj, .gltf, .glb, .dae)."
   },
-  { "id": "binding_exportFile", "value": "导出场景" },
+  { "id": "binding_exportFile", "value": "Export Scene" },
   {
     "id": "binding_exportFile_Desc",
-    "value": "导出场景 to .obj, .gltf, .glb, or .dae file."
+    "value": "Export scene to .obj, .gltf, .glb, or .dae file."
   },
-  { "id": "binding_exportObjects", "value": "导出对象" },
+  { "id": "binding_exportObjects", "value": "Export Objects" },
   {
     "id": "binding_exportObjects_Desc",
-    "value": "导出对象 to .obj, .gltf, .glb, or .dae file."
+    "value": "Export objects to .obj, .gltf, .glb, or .dae file."
   },
   { "id": "binding_exportSelectedObjects", "value": "Export Selected Objects" },
   {
     "id": "binding_exportSelectedObjects_Desc",
-    "value": "导出对象 to .obj, .gltf, .glb, or .dae file. The selected objects will automatically be checked in the export panel."
+    "value": "Export objects to .obj, .gltf, .glb, or .dae file. The selected objects will automatically be checked in the export panel."
   },
   { "id": "binding_openRecentList", "value": "Open Recent List" },
   {
