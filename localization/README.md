@@ -20,10 +20,6 @@ https://crocotile3d.com/localization.html
 | Skybox | 天空盒 | unity | https://docs.unity3d.com/cn/current/Manual/skyboxes-using.html |
 | Prefab | 预制件 | unity | https://docs.unity3d.com/cn/current/Manual/Prefabs.html |
 | Modulate2x | 双倍调制 | unreal-engine | https://dev.epicgames.com/documentation/zh-cn/unreal-engine/material-blend-modes-in-unreal-engine |
-
-
-
-
-
-
+| Sticky | 粘性 | mozilla | https://developer.mozilla.org/zh-CN/docs/Web/CSS/How_to/Layout_cookbook/Sticky_footers |
+| Primitive | 基本体 | blender | https://docs.blender.org/manual/zh-hans/5.0/modeling/meshes/primitives.html |
 
