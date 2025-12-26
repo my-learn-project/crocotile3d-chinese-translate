@@ -1,0 +1,2560 @@
+[
+  { "id": "languageName", "value": "Chinese" },
+  {
+    "id": "translationNote",
+    "value": "您愿意将此文档翻译成其他语言吗？非常感谢您的帮助！"
+  },
+  {
+    "id": "translationNote2",
+    "value": "要翻译此文档，请先点击<u>Save</u>将当前翻译下载。之后您可以将任意文本并将其替换为您的翻译，保存之后点击 <u>Load</u> 选中您翻译的文件即可加载翻译。"
+  },
+  {
+    "id": "translationNote2b",
+    "value": "按下 <u>F8</u> 键，即可在当前编辑语言和英语之间快速切换。"
+  },
+  {
+    "id": "translationNote3",
+    "value": "对于 Crocotile 3D 软件的翻译。您可以将保存好的翻译文件放入 Crocotile 3D 的 localization 文件夹中，然后运行 Crocotile。通过“Help > About”打开“关于”面板，或按下 <u>F2</u>。在 “Language” 下拉菜单中选择该翻译。"
+  },
+  { "id": "menubarFile", "value": "文件" },
+  { "id": "menubarNewScene", "value": "新场景" },
+  { "id": "menubarLoadScene", "value": "加载场景" },
+  { "id": "menubarLoadRecentScene", "value": "加载最近的场景" },
+  { "id": "menubarClearRecent", "value": "清除自动保存的场景" },
+  { "id": "menubarLoadPinnedScene", "value": "加载已置顶场景" },
+  { "id": "menubarPinUnpinScene", "value": "固定/取消固定场景" },
+  { "id": "menubarSaveScene", "value": "保存场景" },
+  { "id": "menubarSaveSceneAs", "value": "保存场景到..." },
+  { "id": "menubarImportScene", "value": "导入场景" },
+  { "id": "menubarImportModel", "value": "导入模型" },
+  { "id": "menubarExportScene", "value": "导出场景" },
+  { "id": "menubarExportObjects", "value": "导出对象" },
+  { "id": "menubarExit", "value": "退出" },
+  { "id": "menubarEdit", "value": "编辑" },
+  { "id": "menubarUndo", "value": "撤销" },
+  { "id": "menubarRedo", "value": "重做" },
+  { "id": "menubarSettings", "value": "设置" },
+  { "id": "menubarButtons", "value": "快捷键" },
+  { "id": "menubarCamera", "value": "相机" },
+  { "id": "menubarPerspective", "value": "透视" },
+  { "id": "menubarOrthographic", "value": "正交" },
+  { "id": "menubarSkybox", "value": "天空盒" },
+  { "id": "menubarSelectImage", "value": "选择图片" },
+  { "id": "menubarShowHide", "value": "显示/隐藏" },
+  { "id": "exportSkybox", "value": "导出天空盒" },
+  { "id": "menubarRender", "value": "渲染" },
+  { "id": "menubarSpinGif", "value": "旋转 Gif" },
+  { "id": "movie", "value": "电影" },
+  { "id": "menubarHelp", "value": "帮助" },
+  { "id": "menubarHowTo", "value": "使用指南..." },
+  { "id": "menubarAbout", "value": "关于" },
+  {
+    "id": "unsavedNewScene",
+    "value": "有未保存的更改！创建一个新场景将导致这些更改丢失。"
+  },
+  {
+    "id": "unsavedLoadScene",
+    "value": "有未保存的更改！加载一个新场景将导致这些更改丢失。"
+  },
+  {
+    "id": "unsavedExit",
+    "value": "有未保存的更改！你确定要退出吗？"
+  },
+  {
+    "id": "recentWrongPath",
+    "value": "该文件的路径错误。它是否已被移动？"
+  },
+  {
+    "id": "exportNoTiles",
+    "value": "已勾选“仅导出当前选中的图块”，但是当前图块集没有被使用的图块！请选择场景中已使用的图块集以导出这些图块。"
+  },
+  { "id": "exportNoObjects", "value": "没有可导出的对象！" },
+  { "id": "selectLanguage", "value": "选择语言" },
+  {
+    "id": "activationDetails",
+    "value": "保存超过 100 个图块并导出需要激活密钥。输入您的密钥以启用这些功能，或者继续使用未激活的版本。"
+  },
+  { "id": "activationEmail", "value": "邮箱" },
+  { "id": "activationKey", "value": "密钥" },
+  { "id": "registerButton", "value": "注册" },
+  { "id": "continueButton", "value": "继续" },
+  { "id": "invalidKey", "value": "许可证密钥无效。" },
+  {
+    "id": "activationFailed",
+    "value": "激活失败：请检查输入是否正确。如果问题仍然存在，请联系支持。"
+  },
+  {
+    "id": "activationAttempts",
+    "value": "激活尝试次数过多！请联系支持并稍后再试。"
+  },
+  {
+    "id": "failedCode",
+    "value": "无效的代码：请检查代码输入是否正确。"
+  },
+  { "id": "activationSuccess", "value": "完整版已激活！" },
+  { "id": "news", "value": "新闻" },
+  { "id": "updateReleased", "value": "已发布更新。" },
+  { "id": "version", "value": "版本" },
+  { "id": "isNowAvailable", "value": "现已可用。" },
+  { "id": "dontRemindMe", "value": "不再提醒" },
+  { "id": "okayButton", "value": "确定" },
+  { "id": "importOptions", "value": "导入选项" },
+  { "id": "include", "value": "包含" },
+  { "id": "importButton", "value": "导入" },
+  { "id": "includeSceneTiles", "value": "包含场景图块" },
+  {
+    "id": "preventDuplicateTilesetNames",
+    "value": "防止重复的图块集名称"
+  },
+  { "id": "excludeUnusedTilesets", "value": "排除未使用的图块集" },
+  { "id": "replaceObjects", "value": "用同名对象替换" },
+  { "id": "mergeLayers", "value": "合并同名图层" },
+  { "id": "mergeTheatreActs", "value": "整合同名幕" },
+  { "id": "exportOptions", "value": "导出选项" },
+  { "id": "includeObjects", "value": "包含对象" },
+  { "id": "exportFileFormat", "value": "文件格式" },
+  { "id": "exportMergeVertices", "value": "合并顶点" },
+  { "id": "exportVertexNormals", "value": "顶点法线" },
+  { "id": "exportFlat", "value": "平面" },
+  { "id": "exportSmooth", "value": "平滑" },
+  { "id": "vertexColorSpace", "value": "顶点颜色空间" },
+  { "id": "exportAngleThreshold", "value": "角度阈值" },
+  { "id": "exportPolygonType", "value": "多边形类型" },
+  { "id": "exportTriangles", "value": "三角形" },
+  { "id": "exportQuads", "value": "四边形" },
+  { "id": "exportUseGroups", "value": "使用分组" },
+  { "id": "exportSingleMesh", "value": "使用单一网格" },
+  { "id": "exportUnlit", "value": "非光照" },
+  { "id": "exportEmbedTextures", "value": "嵌入纹理" },
+  { "id": "exportBakedPose", "value": "导出烘焙姿势" },
+  { "id": "exportAllTextures", "value": "导出所有纹理" },
+  { "id": "exportTexturePrefix", "value": "纹理前缀" },
+  { "id": "none", "value": "无" },
+  { "id": "projectName", "value": "项目名称" },
+  { "id": "exportTileSpacing", "value": "图块间距" },
+  { "id": "tilesize", "value": "图块尺寸" },
+  { "id": "auto", "value": "自动" },
+  { "id": "unique", "value": "唯一" },
+  { "id": "exportPowerOfTwo", "value": "使用 2 的幂次纹理" },
+  {
+    "id": "exportCurrentTileset",
+    "value": "仅导出当前选中的图块集"
+  },
+  { "id": "exportUVAnimations", "value": "导出 UV 动画" },
+  { "id": "exportLights", "value": "导出灯光" },
+  { "id": "exportScale", "value": "缩放" },
+  { "id": "exportDecalOffset", "value": "贴花偏移" },
+  { "id": "exportButton", "value": "导出" },
+  { "id": "closeButton", "value": "关闭" },
+  { "id": "effects", "value": "效果" },
+  { "id": "fog", "value": "雾" },
+  { "id": "near", "value": "近裁剪面" },
+  { "id": "far", "value": "远裁剪面" },
+  { "id": "bloom", "value": "辉光" },
+  { "id": "strength", "value": "强度" },
+  { "id": "radius", "value": "半径" },
+  { "id": "threshold", "value": "阈值" },
+  { "id": "depthOfField", "value": "景深" },
+  { "id": "focus", "value": "焦点" },
+  { "id": "aperture", "value": "光圈" },
+  { "id": "maxBlur", "value": "最大模糊" },
+  { "id": "enable", "value": "启用" },
+  { "id": "renderCamera", "value": "渲染相机" },
+  { "id": "defaultCamera", "value": "默认相机" },
+  {
+    "id": "selectCameraAlert",
+    "value": "请选择一个或多个相机进行渲染！"
+  },
+  { "id": "orthographicSettings", "value": "正交设置" },
+  { "id": "frustumAdjustment", "value": "视锥调整" },
+  { "id": "cameraSpin", "value": "相机旋转" },
+  { "id": "viewport", "value": "视口" },
+  { "id": "cameraSpinFrames", "value": "帧数" },
+  { "id": "cameraSpinInvalidFrames", "value": "帧数无效！" },
+  {
+    "id": "cameraSpinFrameInterval",
+    "value": "帧间隔（毫秒）"
+  },
+  {
+    "id": "cameraSpinInvalidInterval",
+    "value": "帧间隔无效！"
+  },
+  { "id": "cameraSpinRotate", "value": "旋转" },
+  { "id": "cameraSpinInvalidNumber", "value": "旋转值无效！" },
+  { "id": "cameraSpinRecording", "value": "正在录制" },
+  { "id": "cameraSpinProcessing", "value": "处理中" },
+  { "id": "cameraSpinFinishedSaving", "value": "保存完成！" },
+  { "id": "reset", "value": "重置" },
+  { "id": "renderMovie", "value": "渲染影片" },
+  { "id": "framerate", "value": "帧率" },
+  { "id": "quality", "value": "质量" },
+  { "id": "combineActs", "value": "合并幕" },
+  { "id": "padNumber", "value": "填充数字" },
+  { "id": "selectActAlert", "value": "请选择一个或多个幕进行渲染！" },
+  { "id": "settings", "value": "设置" },
+  { "id": "saveSettings", "value": "保存设置" },
+  { "id": "loadSettings", "value": "加载设置" },
+  { "id": "resetSettings", "value": "重置设置" },
+  {
+    "id": "resetSettingsAlert",
+    "value": "你确定要重置设置吗？这将把程序恢复到默认设置。"
+  },
+  { "id": "settingsGeneral", "value": "常规" },
+  { "id": "settingsResolution", "value": "分辨率" },
+  { "id": "settingsWindow", "value": "窗口" },
+  { "id": "settingsFPS", "value": "帧率" },
+  { "id": "colorTheme", "value": "颜色主题" },
+  { "id": "buttonInputScale", "value": "按钮与输入缩放" },
+  { "id": "light", "value": "浅色" },
+  { "id": "dark", "value": "深色" },
+  { "id": "settingsShowRuler", "value": "显示标尺" },
+  { "id": "settingsLockCrosshair", "value": "将十字线锁定到网格" },
+  {
+    "id": "settingsSnapCrosshairToInstanceOrigin",
+    "value": "将十字线吸附到实例原点"
+  },
+  {
+    "id": "settingsIncrementRoundingCustom",
+    "value": "自定义网格增量取整"
+  },
+  {
+    "id": "displayExtraViewportInformation",
+    "value": "显示额外视口信息"
+  },
+  { "id": "settingsMouseFocusPanel", "value": "鼠标自动聚焦面板" },
+  { "id": "settingsWireframe", "value": "线框" },
+  { "id": "settingsWireframeColor", "value": "线框颜色" },
+  {
+    "id": "settingsWireframeHighlightColor",
+    "value": "线框高亮颜色"
+  },
+  { "id": "settingsCrosshairColor", "value": "十字线颜色" },
+  { "id": "settingsBackgroundColor", "value": "背景颜色" },
+  { "id": "settingsUsePaintColor", "value": "使用绘制颜色" },
+  { "id": "settingsBackgroundAlpha", "value": "背景透明度" },
+  { "id": "colorIsTransparent", "value": "颜色为透明" },
+  {
+    "id": "defaultAllowRefreshDefault",
+    "value": "默认图块集允许刷新"
+  },
+  { "id": "saveLoadUVTilesize", "value": "保存/加载 UV 图块尺寸" },
+  { "id": "saveLoadGridRounding", "value": "保存/加载网格取整" },
+  { "id": "saveLoadCameraSettings", "value": "保存/加载相机设置" },
+  { "id": "viewCube", "value": "视图立方体" },
+  { "id": "viewCubeModelScale", "value": "视图立方体模型缩放" },
+  { "id": "viewCubeViewportRatio", "value": "视图立方体视口比例" },
+  { "id": "settingsBackupFolder", "value": "备份文件夹" },
+  { "id": "settingsScreenshotFolder", "value": "截图文件夹" },
+  { "id": "settingsFileDialogPaths", "value": "文件对话框路径" },
+  { "id": "shared", "value": "共享" },
+  { "id": "settingsChoose", "value": "选择" },
+  { "id": "settingsBackupLimit", "value": "备份上限" },
+  { "id": "settingsUndoLimit", "value": "撤销上限" },
+  { "id": "settingsProject", "value": "项目" },
+  { "id": "settingsBasePixelUnit", "value": "基础像素单位" },
+  { "id": "texelDensity", "value": "纹理密度" },
+  { "id": "uvScaling", "value": "UV 缩放" },
+  { "id": "settingsSkyboxShape", "value": "天空盒形状" },
+  { "id": "box", "value": "立方体" },
+  { "id": "cylinder", "value": "圆柱" },
+  { "id": "sphere", "value": "球体" },
+  { "id": "editButton", "value": "编辑" },
+  { "id": "settingsCurrentUnitScale", "value": "当前单位缩放" },
+  { "id": "settingsNewUnitScale", "value": "新单位缩放" },
+  { "id": "settingsPixelPerMeter", "value": "每米像素数" },
+  { "id": "settingsResizeTheScene", "value": "调整场景大小" },
+  {
+    "id": "settingsNotAValidNumber",
+    "value": "提供的数值无效！"
+  },
+  { "id": "applyButton", "value": "应用" },
+  { "id": "settingsCamera", "value": "相机" },
+  { "id": "nearPlane", "value": "相机视锥近裁剪面" },
+  { "id": "settingsFrustumPlane", "value": "相机视锥远裁剪面" },
+  { "id": "aspectRatio", "value": "相机纵横比" },
+  { "id": "settingsFOV", "value": "相机视野" },
+  { "id": "settingsCameraUpVector", "value": "相机上向量" },
+  { "id": "zoomSpeed", "value": "缩放速度" },
+  { "id": "freeLookSensitivity", "value": "自由视角灵敏度" },
+  { "id": "freeLookSpeed", "value": "自由视角移动速度" },
+  { "id": "freeLookFlat", "value": "自由视角平面移动" },
+  { "id": "freeLookInverted", "value": "自由视角反向" },
+  { "id": "settingsDrawMode", "value": "绘制模式" },
+  { "id": "settingsOverlapTilebrush", "value": "重叠图块刷" },
+  {
+    "id": "settingsAlignBrushToCrosshair",
+    "value": "将刷子对齐到十字线"
+  },
+  {
+    "id": "settingsEyedropTilesetOnly",
+    "value": "仅复制/应用图块集（不包括 UV）"
+  },
+  {
+    "id": "settingsRelativeUVSampling",
+    "value": "复制/应用 UV（相对模式）"
+  },
+  {
+    "id": "settingsTilebrushSizeUVs",
+    "value": "从吸色的 UV 设置图块刷大小"
+  },
+  {
+    "id": "settingsOrientPrefabToCamera",
+    "value": "将基本体/原始刷子朝向相机并倾斜"
+  },
+  {
+    "id": "settingsStickyEdgeProportionate",
+    "value": "边缘粘附按比例"
+  },
+  {
+    "id": "tileBrushTransparent",
+    "value": "图块刷使用透明模式"
+  },
+  {
+    "id": "vertexColorApplicationMode",
+    "value": "顶点颜色应用模式"
+  },
+  { "id": "eyedropVertexAlphaColor", "value": "吸取顶点透明度颜色" },
+  { "id": "modulate2x", "value": "双倍调制顶点颜色混合" },
+  { "id": "defaultVertexColor", "value": "默认顶点颜色" },
+  { "id": "vertexColorMultiplier", "value": "顶点颜色倍增器" },
+  {
+    "id": "applyVertexColorMultiplier",
+    "value": "应用顶点颜色倍增器"
+  },
+  { "id": "replaceColor", "value": "替换颜色" },
+  { "id": "applyColor", "value": "应用颜色" },
+  { "id": "settingsEditMode", "value": "编辑模式" },
+  { "id": "settingsCameraBasedSelection", "value": "基于相机的选择" },
+  {
+    "id": "settingsCameraBasedSingleClick",
+    "value": "单击时基于相机选择"
+  },
+  { "id": "settingsAutoDeselect", "value": "单击时取消选择" },
+  {
+    "id": "settingsDeselectWithClick",
+    "value": "点击空白处取消选择"
+  },
+  { "id": "settingsCrosshairArrows", "value": "十字线箭头" },
+  {
+    "id": "settingsReverseWithMirrorFlip",
+    "value": "镜像/翻转时反转"
+  },
+  { "id": "settingsGroupWASDUndos", "value": "组合 WASD 撤销" },
+  { "id": "settingsGizmo", "value": "控制器" },
+  { "id": "settingsPrioritizeGizmo", "value": "优先使用控制器" },
+  { "id": "settingsObjectModeConstraint", "value": "对象模式约束" },
+  { "id": "settingsObjectModeHideAll", "value": "对象模式隐藏全部" },
+  { "id": "settingsVertexSize", "value": "顶点大小" },
+  { "id": "displayLessVertices", "value": "显示更少顶点" },
+  { "id": "settingsDisableFaceSelection", "value": "禁用面选择" },
+  { "id": "settingsDisableEdgeSelection", "value": "禁用边选择" },
+  {
+    "id": "settingsDisableVertexSelection",
+    "value": "禁用顶点选择"
+  },
+  { "id": "overlappedVertexSelection", "value": "重叠顶点选择" },
+  {
+    "id": "backfaceCulledVertexSelection",
+    "value": "背面剔除顶点选择"
+  },
+  { "id": "autoFlattenUVs", "value": "编辑顶点时自动展开 UV" },
+  { "id": "settingsSelectedFaceColor", "value": "选中面颜色" },
+  { "id": "settingsSelectedFaceAlpha", "value": "选中面透明度" },
+  { "id": "activeEditSelectedFaceColor", "value": "活动编辑面颜色" },
+  {
+    "id": "activeEditSelectedFaceAlpha",
+    "value": "活动编辑面透明度"
+  },
+  { "id": "settingsTilesets", "value": "图块集" },
+  { "id": "settingsAutoRefreshTilesets", "value": "自动刷新图块集" },
+  {
+    "id": "settingsAllowRefreshDefaultTilesets",
+    "value": "允许刷新默认图块集"
+  },
+  { "id": "settingsLinkExportedTilesets", "value": "关联导出的图块集" },
+  { "id": "settingsDragMultipleUVs", "value": "拖动多个 UV" },
+  {
+    "id": "settingsRestrictToCurrentTileset",
+    "value": "隐藏非激活图块集的 UV"
+  },
+  {
+    "id": "settingsShowUnselectedUVs",
+    "value": "显示未选中图块的 UV"
+  },
+  {
+    "id": "settingsDeselectUVsWithSingleClick",
+    "value": "单击取消所有 UV 选择"
+  },
+  {
+    "id": "settingsKeepPixelScaleReassignTileset",
+    "value": "重新分配图块集时保持 UV 像素缩放"
+  },
+  {
+    "id": "settingsSubtractPadding",
+    "value": "从图块刷中减去间距"
+  },
+  {
+    "id": "settingsMultiplyPadding",
+    "value": "按图块选择倍增间距"
+  },
+  {
+    "id": "settingsShowEntireTileset",
+    "value": "在绘制面板显示整个图块集"
+  },
+  { "id": "settingsTilesetDimensions", "value": "最大图块集尺寸" },
+  { "id": "settingsTilesetMargins", "value": "图块集边距" },
+  { "id": "settingsCheckeredSize", "value": "棋盘格大小" },
+  {
+    "id": "settingsPaintingRightMouseFunction",
+    "value": "绘制右键功能"
+  },
+  { "id": "secondaryColor", "value": "辅助颜色" },
+  { "id": "settingsEyedropAlphaColor", "value": "吸取透明度颜色" },
+  { "id": "settingsUniqueEraserAlpha", "value": "独特橡皮擦透明度" },
+  { "id": "settingsImportScale", "value": "导入缩放（非原生文件）" },
+  { "id": "nestingContainerPadding", "value": "嵌套容器间距" },
+  {
+    "id": "settingsAddToSceneTilted",
+    "value": "根据相机和倾斜添加到场景"
+  },
+  { "id": "keepInstanceNamesUnique", "value": "保持实例名称唯一" },
+  {
+    "id": "keepOnTopAnimation",
+    "value": "保持未停靠动画面板在前"
+  },
+  { "id": "autoKeyPausedOnly", "value": "仅在暂停时自动关键帧" },
+  {
+    "id": "deselectKeyframesWithSingleClick",
+    "value": "单击取消所有关键帧选择"
+  },
+  {
+    "id": "deselectKeyframesBeforeSelecting",
+    "value": "多选前取消所有关键帧选择"
+  },
+  { "id": "statsIn", "value": "在" },
+  { "id": "statsScene", "value": "场景" },
+  { "id": "statsObjects", "value": "对象" },
+  { "id": "statsInstances", "value": "实例" },
+  { "id": "edges", "value": "边" },
+  { "id": "statsVertices", "value": "顶点" },
+  { "id": "switchSides", "value": "切换侧边" },
+  { "id": "dock", "value": "停靠" },
+  { "id": "undock", "value": "取消停靠" },
+  { "id": "modeButton", "value": "绘制/编辑模式" },
+  {
+    "id": "cameraBasedSelectionButton",
+    "value": "基于相机的选择（开/关）"
+  },
+  { "id": "gizmoModeButton", "value": "控制器模式（移动/旋转/缩放）" },
+  { "id": "gizmoAlignmentButton", "value": "控制器对齐（世界/对象）" },
+  { "id": "gizmoToggleButton", "value": "控制器开关（开/关）" },
+  { "id": "undoButton", "value": "撤销" },
+  { "id": "redoButton", "value": "重做" },
+  { "id": "tile", "value": "图块" },
+  { "id": "sticky", "value": "粘附" },
+  { "id": "block", "value": "块" },
+  { "id": "primitive", "value": "基本体" },
+  { "id": "vertexColor", "value": "顶点颜色" },
+  { "id": "vertexColors", "value": "顶点颜色" },
+  { "id": "highlightedVertexColor", "value": "高亮顶点颜色" },
+  { "id": "selectedVertexColor", "value": "选中顶点颜色" },
+  { "id": "centerToSelection", "value": "居中到所选内容" },
+  { "id": "centerToSelectionBounds", "value": "居中到所选范围" },
+  { "id": "lookAtCrosshair", "value": "看向十字线" },
+  { "id": "cameraRotateRight", "value": "向右旋转" },
+  { "id": "cameraRotateLeft", "value": "向左旋转" },
+  { "id": "cameraRotateUp", "value": "向上旋转" },
+  { "id": "cameraRotateDown", "value": "向下旋转" },
+  { "id": "roundToGrid", "value": "对齐到网格" },
+  { "id": "vertices", "value": "顶点" },
+  {
+    "id": "alignVerticesToThePixel",
+    "value": "将顶点对齐到最近的像素"
+  },
+  { "id": "alignVerticesToTheGrid", "value": "将顶点对齐到网格" },
+  {
+    "id": "moveVerticesToTheCrosshair",
+    "value": "将顶点移动到十字线"
+  },
+  {
+    "id": "straightenRelativeToTiles",
+    "value": "相对于各自的图块拉直"
+  },
+  {
+    "id": "selectUnweightedVertices",
+    "value": "选择所有未加权的顶点"
+  },
+  { "id": "selectWeightedVertices", "value": "选择所有已加权的顶点" },
+  {
+    "id": "selectUnweightedVerticesBone",
+    "value": "选择未加权的顶点（针对选中的骨骼）"
+  },
+  {
+    "id": "selectWeightedVerticesBone",
+    "value": "选择已加权的顶点（针对选中的骨骼）"
+  },
+  {
+    "id": "selectVerticesXAxis",
+    "value": "沿十字线 X 轴选择顶点"
+  },
+  {
+    "id": "selectVerticesYAxis",
+    "value": "沿十字线 Y 轴选择顶点"
+  },
+  {
+    "id": "selectVerticesZAxis",
+    "value": "沿十字线 Z 轴选择顶点"
+  },
+  {
+    "id": "paintVertexColors",
+    "value": "将当前颜色应用到选中的顶点"
+  },
+  { "id": "eraseVertexColors", "value": "从选中的顶点移除颜色" },
+  {
+    "id": "selectVertexColors",
+    "value": "使用当前颜色选择顶点"
+  },
+  {
+    "id": "deselectVertexColors",
+    "value": "使用当前颜色取消选择顶点"
+  },
+  { "id": "faceDirection", "value": "面方向" },
+  { "id": "edgeDirection", "value": "边方向" },
+  { "id": "edge", "value": "边" },
+  { "id": "edgeStrict", "value": "边（严格）" },
+  { "id": "uppercaseEdges", "value": "多个边" },
+  { "id": "selectEdgeLoop", "value": "选择边循环" },
+  { "id": "mergeEdgesSafe", "value": "合并边（安全）" },
+  { "id": "mergeEdgesForced", "value": "合并边（强制）" },
+  { "id": "vertex", "value": "顶点" },
+  { "id": "face", "value": "面" },
+  { "id": "faces", "value": "多个面" },
+  { "id": "flipEdge", "value": "翻转边" },
+  { "id": "reverseFace", "value": "反转面" },
+  { "id": "hide", "value": "隐藏" },
+  { "id": "show", "value": "显示" },
+  { "id": "copy", "value": "复制" },
+  { "id": "paste", "value": "粘贴" },
+  { "id": "split", "value": "拆分" },
+  { "id": "subdivide", "value": "细分" },
+  { "id": "allSelectedTiles", "value": "所有选中的图块" },
+  { "id": "triangleDivide", "value": "三角形拆分" },
+  { "id": "triangleMerge", "value": "三角形合并" },
+  { "id": "safe", "value": "安全" },
+  { "id": "forced", "value": "强制" },
+  { "id": "columns", "value": "列" },
+  { "id": "rows", "value": "行" },
+  { "id": "createObject", "value": "创建对象" },
+  {
+    "id": "createObjectAlert",
+    "value": "没有选中的图块，无法创建对象！"
+  },
+  { "id": "selectAllObjects", "value": "选择所有对象" },
+  { "id": "deselectAllObjects", "value": "取消选择所有对象" },
+  { "id": "rotateClockwise", "value": "顺时针旋转" },
+  { "id": "rotateCounterClockwise", "value": "逆时针旋转" },
+  { "id": "bakeLighting", "value": "烘焙光照" },
+  { "id": "selectAllVerts", "value": "选择所有顶点" },
+  { "id": "lights", "value": "灯光" },
+  { "id": "ambientOcclusion", "value": "环境光遮蔽" },
+  { "id": "raysPerVertex", "value": "每顶点射线数" },
+  { "id": "rayDistance", "value": "射线距离" },
+  { "id": "backfaces", "value": "背面" },
+  { "id": "castAgainst", "value": "投射到" },
+  { "id": "tilesAndObjects", "value": "图块和对象" },
+  { "id": "mode", "value": "模式" },
+  { "id": "nearest", "value": "最近" },
+  { "id": "balanced", "value": "平衡" },
+  { "id": "luminance", "value": "亮度" },
+  { "id": "cancel", "value": "取消" },
+  { "id": "generate", "value": "生成" },
+  { "id": "tileset", "value": "图块集" },
+  { "id": "addTileset", "value": "添加图块集" },
+  { "id": "addBlankTileset", "value": "添加空白图块集" },
+  { "id": "blankTileset", "value": "空白图块集" },
+  { "id": "tilesUppercase", "value": "图块" },
+  { "id": "tiles", "value": "图块" },
+  { "id": "pixelsUppercase", "value": "像素" },
+  { "id": "pixels", "value": "像素" },
+  { "id": "width", "value": "宽度" },
+  { "id": "height", "value": "高度" },
+  { "id": "opaque", "value": "不透明" },
+  { "id": "transparent", "value": "透明" },
+  { "id": "checkered", "value": "棋盘格" },
+  { "id": "color", "value": "颜色" },
+  { "id": "createButton", "value": "创建" },
+  {
+    "id": "addSelectedTilesToNewTileset",
+    "value": "将选中的图块添加到新的图块集"
+  },
+  { "id": "cloneTileset", "value": "克隆图块集" },
+  { "id": "tilesetMaterialSettings", "value": "图块集材质设置" },
+  { "id": "emissive", "value": "自发光" },
+  { "id": "specular", "value": "高光反射" },
+  { "id": "shininess", "value": "光泽度" },
+  {
+    "id": "addLightToScene",
+    "value": "*向场景中添加灯光以照亮该材质！"
+  },
+  { "id": "replaceTileset", "value": "替换图块集" },
+  { "id": "removeTileset", "value": "移除图块集" },
+  { "id": "removeUnusedTilesets", "value": "移除未使用的图块集" },
+  { "id": "combineTileset", "value": "合并图块集" },
+  { "id": "combineTilesets", "value": "合并图块集" },
+  { "id": "previousImage", "value": "上一张图片" },
+  { "id": "nextImage", "value": "下一张图片" },
+  { "id": "mergeDown", "value": "向下合并" },
+  { "id": "discardBottom", "value": "丢弃底部" },
+  { "id": "discardTop", "value": "丢弃顶部" },
+  {
+    "id": "combineTilesetAlert",
+    "value": "必须存在图块集才能进行合并。"
+  },
+  { "id": "combineMatchingTilesets", "value": "合并匹配的图块集" },
+  {
+    "id": "applyTilesetToTheSelectedFaces",
+    "value": "将图块集应用到选中的面"
+  },
+  { "id": "resizeTileset", "value": "调整图块集大小" },
+  { "id": "canvas", "value": "画布" },
+  { "id": "image", "value": "图像" },
+  { "id": "percent", "value": "百分比" },
+  { "id": "proportionate", "value": "按比例" },
+  { "id": "openTilesetLocation", "value": "打开图块集位置" },
+  { "id": "exportTileset", "value": "导出图块集" },
+  { "id": "selectTiles", "value": "选择图块" },
+  { "id": "deselectTiles", "value": "取消选择图块" },
+  {
+    "id": "selectWithinTileSelection",
+    "value": "选择图块选择范围内的图块"
+  },
+  {
+    "id": "selectTouchingTileSelection",
+    "value": "选择与图块选择范围接触的图块"
+  },
+  {
+    "id": "deselectWithinTileSelection",
+    "value": "取消选择图块选择范围内的图块"
+  },
+  {
+    "id": "deselectTouchingTileSelection",
+    "value": "取消选择与图块选择范围接触的图块"
+  },
+  {
+    "id": "dselectTilesUsingTileset",
+    "value": "使用当前图块集取消选择图块"
+  },
+  {
+    "id": "selectBasedOnTilebrush",
+    "value": "使用图块刷的 UV 选择图块"
+  },
+  {
+    "id": "deselectBasedOnTilebrush",
+    "value": "使用图块刷的 UV 取消选择图块"
+  },
+  {
+    "id": "selectTilesUsingTileset",
+    "value": "使用当前图块集选择图块"
+  },
+  {
+    "id": "deselectTilesUsingTileset",
+    "value": "使用当前图块集取消选择图块"
+  },
+  { "id": "selectTileUVs", "value": "选择图块 UV" },
+  { "id": "deselectTileUVs", "value": "" },
+  { "id": "applyUVsToFaces", "value": "将图块刷 UV 应用到面" },
+  { "id": "previousTileset", "value": "上一个图块集" },
+  { "id": "selectTileset", "value": "选择图块集" },
+  { "id": "nextTileset", "value": "下一个图块集" },
+  { "id": "wrappingClampToEdge", "value": "环绕方式：边缘夹取" },
+  { "id": "wrappingRepeat", "value": "环绕方式：重复" },
+  { "id": "wrappingMirroredRepeat", "value": "环绕方式：镜像重复" },
+  { "id": "singleDoubleSided", "value": "单面 / 双面" },
+  { "id": "decalModeOff", "value": "贴花模式：关闭" },
+  { "id": "decalModeOn", "value": "贴花模式：开启" },
+  { "id": "depthwritingOff", "value": "深度写入：关闭" },
+  { "id": "depthwritingOn", "value": "深度写入：开启" },
+  { "id": "transparencyOff", "value": "透明：关闭" },
+  { "id": "transparencyOn", "value": "透明：开启" },
+  { "id": "allowRefreshOff", "value": "允许刷新：关闭" },
+  { "id": "allowRefreshOn", "value": "允许刷新：开启" },
+  { "id": "refreshTilesets", "value": "重新加载 / 刷新图块集" },
+  { "id": "magnification", "value": "放大倍率" },
+  { "id": "uvTilesize", "value": "UV 图块尺寸" },
+  { "id": "uvTileWidth", "value": "图块宽度" },
+  { "id": "uvTileHeight", "value": "图块高度" },
+  { "id": "uniqueOff", "value": "唯一：关闭" },
+  { "id": "uniqueOn", "value": "唯一：开启" },
+  { "id": "uvPadding", "value": "UV 间距" },
+  { "id": "leftPadding", "value": "左侧间距" },
+  { "id": "rightPadding", "value": "右侧间距" },
+  { "id": "topPadding", "value": "顶部间距" },
+  { "id": "bottomPadding", "value": "底部间距" },
+  { "id": "tilescale3d", "value": "3D 图块缩放" },
+  { "id": "tilescaleX", "value": "图块 X 缩放" },
+  { "id": "tilescaleY", "value": "图块 Y 缩放" },
+  { "id": "gridRounding", "value": "网格取整" },
+  { "id": "rotateInterval", "value": "旋转间隔" },
+  { "id": "tileSplitting", "value": "图块拆分" },
+  { "id": "tilePalette", "value": "图块调色板" },
+  {
+    "id": "addSelectedTilesToTilePalette",
+    "value": "将选中的图块添加到所选图块调色板"
+  },
+  { "id": "addTiles", "value": "添加图块" },
+  { "id": "removeTiles", "value": "移除图块" },
+  { "id": "editWeights", "value": "编辑权重" },
+  { "id": "addPalette", "value": "添加调色板" },
+  { "id": "clearPalette", "value": "清空调色板" },
+  { "id": "removePalette", "value": "移除调色板" },
+  { "id": "resetPaletteWeights", "value": "重置调色板权重" },
+  { "id": "paletteMode", "value": "调色板模式" },
+  { "id": "random", "value": "随机" },
+  { "id": "sequence", "value": "顺序" },
+  { "id": "toolLineColor", "value": "工具线颜色" },
+  { "id": "dashedLineColor", "value": "虚线颜色" },
+  { "id": "uvs", "value": "UV" },
+  { "id": "mirror", "value": "镜像" },
+  { "id": "flip", "value": "翻转" },
+  { "id": "mirrorSeparately", "value": "分别镜像" },
+  { "id": "flipSeparately", "value": "分别翻转" },
+  { "id": "rotateLeft", "value": "向左旋转" },
+  { "id": "rotateRight", "value": "向右旋转" },
+  { "id": "rotateLeftSeparately", "value": "分别向左旋转" },
+  { "id": "rotateRightSeparately", "value": "分别向右旋转" },
+  { "id": "selectSingleMultiple", "value": "选择 单个/多个" },
+  { "id": "lockUnlockCrosshair", "value": "锁定/解锁十字线" },
+  { "id": "uvPrecision", "value": "UV 精度" },
+  { "id": "rotation", "value": "旋转" },
+  { "id": "scale", "value": "缩放" },
+  { "id": "scaleX", "value": "X 缩放" },
+  { "id": "scaleY", "value": "Y 缩放" },
+  { "id": "crosshair", "value": "十字线" },
+  { "id": "moveToMousePosition", "value": "移动到鼠标位置" },
+  { "id": "centerOfSelection", "value": "选择内容中心" },
+  { "id": "topOfSelection", "value": "选择内容顶部" },
+  { "id": "bottomOfSelection", "value": "选择内容底部" },
+  { "id": "leftOfSelection", "value": "选择内容左侧" },
+  { "id": "rightOfSelection", "value": "选择内容右侧" },
+  { "id": "alignSelection", "value": "对齐选择内容" },
+  { "id": "centerOnCrosshair", "value": "居中到十字线" },
+  { "id": "alignTopToCrosshair", "value": "顶部对齐到十字线" },
+  { "id": "alignBottomToCrosshair", "value": "底部对齐到十字线" },
+  { "id": "alignLeftToCrosshair", "value": "左侧对齐到十字线" },
+  { "id": "alignRightToCrosshair", "value": "右侧对齐到十字线" },
+  { "id": "roundToNearestPixel", "value": "对齐到最近像素" },
+  { "id": "setToCrosshair", "value": "设置到十字线" },
+  { "id": "resetCrosshair", "value": "重置十字线" },
+  { "id": "unwrap", "value": "展开" },
+  { "id": "pack", "value": "打包" },
+  { "id": "setToTile", "value": "设置为图块" },
+  { "id": "setToTileset", "value": "设置为图块集" },
+  { "id": "paint", "value": "绘制" },
+  { "id": "traceSelected", "value": "描绘选中内容" },
+  { "id": "fillSolid", "value": "填充纯色" },
+  { "id": "fillCheckered", "value": "填充棋盘格" },
+  { "id": "exportUVMapImage", "value": "导出 UV 映射图像" },
+  { "id": "menu3d", "value": "3D" },
+  {
+    "id": "selectTilesUvsContainMouse",
+    "value": "选择图块（UV 包含鼠标位置）"
+  },
+  {
+    "id": "deselectTilesUvsSelected",
+    "value": "取消选择图块（UV 已选中）"
+  },
+  {
+    "id": "deselectTilesUvsUnselected",
+    "value": "取消选择图块（UV 未选中）"
+  },
+  { "id": "selectAll", "value": "全选" },
+  { "id": "deselectAll", "value": "取消全选" },
+  { "id": "selectAllSpecific", "value": "全选（指定）" },
+  { "id": "deselectAllSpecific", "value": "取消全选（指定）" },
+  { "id": "invertSelection", "value": "反选" },
+  { "id": "exportUVMap", "value": "导出 UV 映射" },
+  { "id": "lineColor", "value": "线条颜色" },
+  { "id": "canvasColor", "value": "画布颜色" },
+  { "id": "scaleInvalid", "value": "缩放值不是有效的数字！" },
+  { "id": "uvAnimation", "value": "UV 动画" },
+  { "id": "addAnimation", "value": "添加动画" },
+  { "id": "addFrame", "value": "添加帧" },
+  { "id": "addFrames", "value": "添加多帧" },
+  { "id": "removeFrames", "value": "移除帧" },
+  { "id": "clearFrames", "value": "清空帧" },
+  { "id": "copyFrames", "value": "复制帧" },
+  { "id": "pasteFrames", "value": "粘贴帧" },
+  { "id": "removeAnimation", "value": "移除动画" },
+  { "id": "frameDuration", "value": "帧持续时间" },
+  { "id": "setFrameDuration", "value": "设置帧持续时间" },
+  { "id": "loadAnimations", "value": "加载动画" },
+  { "id": "saveAnimation", "value": "保存动画" },
+  { "id": "saveAllAnimations", "value": "保存所有动画" },
+  { "id": "hideShowAnimations", "value": "隐藏/显示动画" },
+  { "id": "start", "value": "开始" },
+  { "id": "seconds", "value": "秒" },
+  { "id": "padding", "value": "内边距" },
+  { "id": "addPadding", "value": "添加内边距" },
+  { "id": "painting", "value": "绘制" },
+  { "id": "verticalSymmetry", "value": "垂直对称" },
+  { "id": "horizontalSymmetry", "value": "水平对称" },
+  { "id": "brush", "value": "画笔" },
+  { "id": "dither", "value": "抖动" },
+  { "id": "gridLines", "value": "网格线" },
+  { "id": "pencil", "value": "铅笔" },
+  { "id": "eraser", "value": "橡皮擦" },
+  { "id": "eyedropper", "value": "吸管" },
+  { "id": "paintBucket", "value": "油漆桶" },
+  { "id": "sprayCan", "value": "喷枪" },
+  { "id": "checkeredFill", "value": "棋盘填充" },
+  { "id": "contiguous", "value": "连续" },
+  { "id": "marquee", "value": "矩形选框" },
+  { "id": "lasso", "value": "套索" },
+  { "id": "magicwand", "value": "魔棒" },
+  { "id": "hand", "value": "手形工具" },
+  { "id": "arrow", "value": "箭头" },
+  { "id": "palette", "value": "调色板" },
+  { "id": "savePalette", "value": "保存调色板" },
+  { "id": "loadPalette", "value": "加载调色板" },
+  { "id": "emptyPalette", "value": "清空调色板" },
+  { "id": "emptyPaletteAlert", "value": "要清空调色板吗？" },
+  { "id": "defaultPalette", "value": "默认调色板" },
+  {
+    "id": "defaultPaletteAlert",
+    "value": "是否用默认调色板替换当前调色板？"
+  },
+  { "id": "removeDuplicates", "value": "移除重复项" },
+  { "id": "hideShowPalette", "value": "隐藏/显示调色板" },
+  { "id": "addColor", "value": "添加颜色" },
+  { "id": "removeColor", "value": "移除颜色" },
+  { "id": "alphaApplication", "value": "Alpha 应用（唯一/混合）" },
+  { "id": "transform", "value": "变换" },
+  { "id": "metersUppercase", "value": "米" },
+  {
+    "id": "axisRelativeToCamera",
+    "value": "轴相对于相机朝向（开/关）"
+  },
+  { "id": "rightUpBackward", "value": "（右、上、后）" },
+  { "id": "gizmo", "value": "操纵器" },
+  { "id": "link", "value": "链接" },
+  { "id": "translate", "value": "平移" },
+  { "id": "resize", "value": "缩放" },
+  { "id": "rotate", "value": "旋转" },
+  { "id": "align", "value": "对齐" },
+  { "id": "push", "value": "推" },
+  { "id": "center", "value": "居中" },
+  { "id": "pull", "value": "拉" },
+  { "id": "flatten", "value": "压平" },
+  { "id": "point", "value": "点" },
+  { "id": "against", "value": "对齐到" },
+  { "id": "groupAgainst", "value": "组对齐到" },
+  { "id": "moveSelection", "value": "移动选中内容" },
+  { "id": "get", "value": "获取" },
+  { "id": "set", "value": "设置" },
+  { "id": "position", "value": "位置" },
+  { "id": "randomize", "value": "随机化" },
+  { "id": "rounding", "value": "取整" },
+  { "id": "min", "value": "最小" },
+  { "id": "max", "value": "最大" },
+  { "id": "translateCrosshair", "value": "平移准星" },
+  { "id": "crosshairRotation", "value": "准星旋转" },
+  { "id": "rotateCrosshair", "value": "旋转准星" },
+  { "id": "tilt", "value": "倾斜" },
+  { "id": "distanceToGizmo", "value": "到操纵器的距离" },
+  { "id": "camera", "value": "相机" },
+  { "id": "lockAxis", "value": "锁定轴" },
+  { "id": "swivelPoint", "value": "旋转支点" },
+  { "id": "lock", "value": "锁定" },
+  { "id": "swingCamera", "value": "摆动相机" },
+  { "id": "orientation", "value": "方向" },
+  { "id": "translateCameraPosition", "value": "平移相机位置" },
+  { "id": "cameraPosition", "value": "相机位置" },
+  { "id": "cameraRotation", "value": "相机旋转" },
+  { "id": "rotateCamera", "value": "旋转相机" },
+  { "id": "zoomLevel", "value": "缩放级别" },
+  { "id": "zoom", "value": "缩放" },
+  { "id": "cameraZoomLevel", "value": "相机缩放级别" },
+  { "id": "zoomCamera", "value": "缩放相机" },
+  { "id": "primitive", "value": "基本体" },
+  { "id": "wedge", "value": "楔形" },
+  { "id": "cone", "value": "圆锥" },
+  { "id": "size", "value": "尺寸" },
+  { "id": "sides", "value": "边数" },
+  { "id": "segments", "value": "分段" },
+  { "id": "extrude", "value": "挤出" },
+  { "id": "extrudeUVs", "value": "挤出 UV" },
+  { "id": "distance", "value": "距离" },
+  { "id": "smoothingGroups", "value": "平滑组" },
+  { "id": "group", "value": "组" },
+  { "id": "scene", "value": "场景" },
+  { "id": "exportSceneData", "value": "导出场景数据" },
+  { "id": "addLayer", "value": "添加图层" },
+  { "id": "addLight", "value": "添加灯光" },
+  { "id": "ambientLight", "value": "环境光" },
+  { "id": "pointLight", "value": "点光源" },
+  { "id": "spotlight", "value": "聚光灯" },
+  { "id": "directionalLight", "value": "方向光" },
+  { "id": "toggleLights", "value": "切换灯光 开/关" },
+  { "id": "addCamera", "value": "添加相机" },
+  { "id": "addActor", "value": "添加角色" },
+  { "id": "addBody", "value": "添加身体" },
+  { "id": "addBone", "value": "添加骨骼" },
+  { "id": "addAudio", "value": "添加音频" },
+  { "id": "showHideAllBones", "value": "显示/隐藏所有骨骼" },
+  { "id": "removeSelectedItem", "value": "移除选中项" },
+  { "id": "moveUp", "value": "上移" },
+  { "id": "moveDown", "value": "下移" },
+  { "id": "lockUnlockItem", "value": "锁定/解锁 项目" },
+  { "id": "importPrefabObject", "value": "导入预制件对象" },
+  { "id": "purgeUnusedObjects", "value": "清除（全部）未使用的对象" },
+  {
+    "id": "confirmPurgeObjects",
+    "value": "确定要移除所有未使用的对象吗？"
+  },
+  { "id": "showHideInstanceList", "value": "隐藏/显示 实例列表" },
+  { "id": "amount", "value": "数量" },
+  { "id": "spacing", "value": "间距" },
+  { "id": "points", "value": "点" },
+  { "id": "movePointToCrosshair", "value": "将点移动到准星" },
+  { "id": "renamePoint", "value": "重命名点" },
+  { "id": "addPoint", "value": "在准星处添加点" },
+  { "id": "removePoint", "value": "移除点" },
+  { "id": "origin", "value": "原点" },
+  { "id": "worldSpace", "value": "世界空间" },
+  { "id": "localSpace", "value": "本地空间" },
+  { "id": "layer", "value": "图层" },
+  { "id": "switchToCamera", "value": "切换到此相机" },
+  { "id": "renameCamera", "value": "重命名相机" },
+  { "id": "renameLight", "value": "重命名灯光" },
+  { "id": "resetCamera", "value": "重置相机" },
+  { "id": "removeCamera", "value": "移除相机" },
+  { "id": "removeLight", "value": "移除灯光" },
+  { "id": "cloneLight", "value": "克隆灯光" },
+  { "id": "object", "value": "对象" },
+  { "id": "entity", "value": "实体" },
+  { "id": "property", "value": "属性" },
+  { "id": "showHideActor", "value": "显示/隐藏 角色" },
+  { "id": "renameActor", "value": "重命名角色" },
+  { "id": "removeActor", "value": "移除角色" },
+  { "id": "showHideBone", "value": "显示/隐藏 骨骼" },
+  { "id": "showHideCamera", "value": "显示/隐藏 相机" },
+  { "id": "showHideLight", "value": "显示/隐藏 灯光" },
+  { "id": "renameBone", "value": "重命名骨骼" },
+  { "id": "removeBone", "value": "移除骨骼" },
+  { "id": "showHideLayer", "value": "显示/隐藏 图层" },
+  { "id": "renameLayer", "value": "重命名图层" },
+  {
+    "id": "centerCrosshairToLayerBounds",
+    "value": "将准星居中到图层边界"
+  },
+  {
+    "id": "setAllObjectsOrigin",
+    "value": "将所有对象的原点设置到准星"
+  },
+  { "id": "removeLayer", "value": "移除图层" },
+  { "id": "addToScene", "value": "添加到场景" },
+  { "id": "renameObject", "value": "重命名对象" },
+  { "id": "applyNameToInstances", "value": "将名称应用到实例" },
+  { "id": "properties", "value": "属性" },
+  { "id": "audioProperties", "value": "音频属性" },
+  { "id": "duration", "value": "时长" },
+  { "id": "volume", "value": "音量" },
+  { "id": "timelineStart", "value": "时间轴起始" },
+  { "id": "enableDisableAudio", "value": "启用/禁用 音频" },
+  { "id": "renameAudio", "value": "重命名音频" },
+  { "id": "removeAudio", "value": "移除音频" },
+  { "id": "lightProperties", "value": "灯光属性" },
+  { "id": "angle", "value": "角度" },
+  { "id": "penumbra", "value": "半影" },
+  { "id": "shadow", "value": "阴影" },
+  { "id": "castShadows", "value": "投射阴影" },
+  { "id": "receiveShadows", "value": "接收阴影" },
+  { "id": "shadows", "value": "阴影" },
+  { "id": "shadowBias", "value": "阴影偏移" },
+  { "id": "shadowMapWidth", "value": "阴影贴图宽度" },
+  { "id": "shadowMapHeight", "value": "阴影贴图高度" },
+  { "id": "cameraProperties", "value": "相机属性" },
+  { "id": "lookAtTarget", "value": "朝向目标" },
+  { "id": "left", "value": "左" },
+  { "id": "right", "value": "右" },
+  { "id": "top", "value": "上" },
+  { "id": "bottom", "value": "下" },
+  { "id": "objectProperties", "value": "对象属性" },
+  { "id": "instanceProperties", "value": "实例属性" },
+  { "id": "objectGeneral", "value": "常规" },
+  { "id": "objectName", "value": "名称" },
+  { "id": "instanceCount", "value": "实例数量" },
+  { "id": "objectBillboarding", "value": "广告牌效果" },
+  { "id": "objectBillboardingEnabled", "value": "启用广告牌效果" },
+  { "id": "objectLockToYAxis", "value": "锁定到 Y 轴" },
+  { "id": "objectMirroring", "value": "镜像" },
+  { "id": "objectMirroringEnabled", "value": "启用镜像" },
+  { "id": "objectMirroringAxis", "value": "轴" },
+  { "id": "objectMirroredTiles", "value": "镜像图块" },
+  { "id": "skinning", "value": "蒙皮" },
+  { "id": "objectSkin", "value": "皮肤" },
+  { "id": "objectSkinEnabled", "value": "蒙皮网格" },
+  { "id": "rootBone", "value": "根骨骼" },
+  { "id": "custom", "value": "自定义" },
+  { "id": "instance", "value": "实例" },
+  { "id": "instances", "value": "实例" },
+  { "id": "boneProperties", "value": "骨骼属性" },
+  { "id": "restorePose", "value": "恢复姿势" },
+  { "id": "restorePoseAll", "value": "恢复所有姿势" },
+  { "id": "weight", "value": "权重" },
+  { "id": "boneLength", "value": "骨骼长度" },
+  { "id": "boneThickness", "value": "骨骼粗细" },
+  { "id": "restrictive", "value": "限制性" },
+  { "id": "hideShowAll", "value": "全部隐藏/显示" },
+  { "id": "replaceSelectedInstances", "value": "替换选中实例" },
+  { "id": "cloneObject", "value": "克隆对象" },
+  { "id": "deleteObject", "value": "删除对象/实例" },
+  { "id": "exportInstanceData", "value": "导出实例数据" },
+  { "id": "exportMisc", "value": "导出杂项" },
+  { "id": "exportToObj", "value": "导出为 Obj" },
+  { "id": "exportToPrefab", "value": "导出为预制件" },
+  { "id": "editObject", "value": "编辑对象" },
+  { "id": "renameInstance", "value": "重命名实例" },
+  { "id": "select", "value": "选择" },
+  { "id": "deselect", "value": "取消选择" },
+  { "id": "deleteInstance", "value": "删除实例" },
+  { "id": "moveCrosshairToInstance", "value": "将准星移动到实例" },
+  { "id": "resetRotations", "value": "重置旋转" },
+  { "id": "originToCrosshair", "value": "将原点移动到准星" },
+  { "id": "duplicateInstances", "value": "复制实例" },
+  { "id": "duplicateInstancesArea", "value": "复制实例区域" },
+  { "id": "duplicate", "value": "复制" },
+  { "id": "duplicateAll", "value": "全部复制" },
+  { "id": "removeInstance", "value": "移除实例" },
+  { "id": "deconstructObject", "value": "拆解对象" },
+  { "id": "objectIsLocked", "value": "该对象已被锁定！" },
+  { "id": "layerIsLocked", "value": "该图层已被锁定！" },
+  { "id": "actorIsLocked", "value": "该角色已被锁定！" },
+  { "id": "boneIsLocked", "value": "该骨骼已被锁定！" },
+  { "id": "cameraIsLocked", "value": "该相机已被锁定！" },
+  { "id": "lightIsLocked", "value": "该灯光已被锁定！" },
+  { "id": "animation", "value": "动画" },
+  { "id": "animations", "value": "动画" },
+  { "id": "backToBeginning", "value": "回到起始位置" },
+  { "id": "play", "value": "播放" },
+  { "id": "pause", "value": "暂停" },
+  { "id": "stop", "value": "停止" },
+  { "id": "previousKeyframe", "value": "上一个关键帧" },
+  { "id": "nextKeyframe", "value": "下一个关键帧" },
+  { "id": "addNewAction", "value": "添加新动作" },
+  { "id": "duplicateAction", "value": "复制动作" },
+  { "id": "removeAction", "value": "移除动作" },
+  { "id": "renameAction", "value": "重命名动作" },
+  { "id": "copyAction", "value": "复制动作" },
+  { "id": "pasteAction", "value": "粘贴动作" },
+  { "id": "theatre", "value": "剧场" },
+  { "id": "configure", "value": "配置" },
+  { "id": "renameAct", "value": "重命名分幕" },
+  { "id": "addAct", "value": "添加分幕" },
+  { "id": "removeAct", "value": "移除分幕" },
+  { "id": "add", "value": "添加" },
+  { "id": "addMultiple", "value": "添加多个" },
+  { "id": "menu", "value": "菜单" },
+  { "id": "enableDisable", "value": "启用/禁用" },
+  { "id": "pinUnpin", "value": "固定/取消固定" },
+  { "id": "loop", "value": "循环" },
+  { "id": "timescale", "value": "时间缩放" },
+  { "id": "enabled", "value": "已启用" },
+  { "id": "addWeight", "value": "添加权重" },
+  { "id": "allActions", "value": "所有动作" },
+  { "id": "attribute", "value": "属性" },
+  { "id": "components", "value": "组件" },
+  { "id": "applyInterpolation", "value": "应用插值" },
+  { "id": "addKeyframe", "value": "添加关键帧" },
+  { "id": "removeKeyframe", "value": "移除关键帧" },
+  { "id": "autoKeyframe", "value": "自动关键帧" },
+  { "id": "rightOfPlayhead", "value": "播放头右侧" },
+  { "id": "leftOfPlayhead", "value": "播放头左侧" },
+  { "id": "rightOfCursor", "value": "光标右侧" },
+  { "id": "leftOfCursor", "value": "光标左侧" },
+  { "id": "discrete", "value": "离散" },
+  { "id": "linear", "value": "线性" },
+  { "id": "easeInCubic", "value": "立方缓入" },
+  { "id": "easeOutCubic", "value": "立方缓出" },
+  { "id": "easeInOutCubic", "value": "立方缓入缓出" },
+  { "id": "easeInSine", "value": "正弦缓入" },
+  { "id": "easeOutSine", "value": "正弦缓出" },
+  { "id": "easeInOutSine", "value": "正弦缓入缓出" },
+  { "id": "action", "value": "动作" },
+  { "id": "timeline", "value": "时间轴" },
+  { "id": "keyMenu", "value": "关键帧菜单" },
+  { "id": "copyKeyframes", "value": "复制关键帧" },
+  { "id": "pasteKeyframes", "value": "粘贴关键帧" },
+  { "id": "posrot", "value": "位置/旋转" },
+  { "id": "posrotsca", "value": "位置/旋转/缩放" },
+  { "id": "keys", "value": "快捷键" },
+  { "id": "saveKeyBindings", "value": "保存快捷键绑定" },
+  { "id": "loadKeyBindings", "value": "加载快捷键绑定" },
+  { "id": "resetBindings", "value": "重置快捷键绑定" },
+  {
+    "id": "resetBindingsAlert",
+    "value": "确定要重置快捷键绑定吗？这将把所有控制恢复为默认设置。"
+  },
+  { "id": "savePinnedButtons", "value": "保存已固定的按钮" },
+  { "id": "loadPinnedButtons", "value": "加载已固定的按钮" },
+  { "id": "resetPins", "value": "重置固定项" },
+  {
+    "id": "resetPinsAlert",
+    "value": "确定要重置固定项吗？这将移除所有已固定的操作。"
+  },
+  { "id": "toggleCameraMode", "value": "切换相机模式" },
+  { "id": "chooseKeygroup", "value": "选择快捷键分组.." },
+  { "id": "value", "value": "数值" },
+  { "id": "pinned", "value": "已固定" },
+  { "id": "keyBinding", "value": "快捷键绑定" },
+  { "id": "mode", "value": "模式" },
+  { "id": "toggle", "value": "切换" },
+  { "id": "hold", "value": "按住" },
+  { "id": "type", "value": "类型" },
+  { "id": "clearButton", "value": "清除" },
+  { "id": "keyOnly", "value": "仅键盘" },
+  { "id": "mouseOnly", "value": "仅鼠标" },
+  { "id": "keyOrMouse", "value": "键盘或鼠标" },
+  { "id": "keyAndMouse", "value": "键盘和鼠标" },
+  { "id": "leftMouse", "value": "鼠标左键" },
+  { "id": "middleMouse", "value": "鼠标中键" },
+  { "id": "rightMouse", "value": "鼠标右键" },
+  { "id": "button", "value": "按钮" },
+  { "id": "binding_close", "value": "关闭程序" },
+  { "id": "binding_close_Desc", "value": "关闭 / 退出程序。" },
+  { "id": "binding_closePanel", "value": "关闭面板" },
+  { "id": "binding_closePanel_Desc", "value": "关闭当前打开的面板。" },
+  { "id": "binding_config", "value": "设置" },
+  { "id": "binding_config_Desc", "value": "打开 / 关闭设置窗口。" },
+  { "id": "binding_license", "value": "信息 / 许可证" },
+  {
+    "id": "binding_license_Desc",
+    "value": "打开 / 关闭信息与许可证窗口。"
+  },
+  { "id": "binding_keyConfig", "value": "快捷键设置" },
+  {
+    "id": "binding_keyConfig_Desc",
+    "value": "打开 / 关闭快捷键绑定窗口。"
+  },
+  { "id": "binding_fullscreen", "value": "全屏" },
+  { "id": "binding_fullscreen_Desc", "value": "切换全屏模式。" },
+  { "id": "binding_screenshot", "value": "截图" },
+  { "id": "binding_screenshot_Desc", "value": "截取屏幕截图。" },
+  { "id": "binding_copy", "value": "复制" },
+  { "id": "binding_copy_Desc", "value": "复制选中的图块 / 对象。" },
+  { "id": "binding_paste", "value": "粘贴" },
+  {
+    "id": "binding_paste_Desc",
+    "value": "粘贴已复制的图块 / 对象。"
+  },
+  { "id": "binding_save", "value": "保存" },
+  { "id": "binding_save_Desc", "value": "保存当前打开的场景。" },
+  { "id": "binding_saveAs", "value": "另存为" },
+  { "id": "binding_saveAs_Desc", "value": "将场景保存为新文件。" },
+  { "id": "binding_newScene", "value": "新建场景" },
+  { "id": "binding_newScene_Desc", "value": "创建一个新场景。" },
+  { "id": "binding_load", "value": "加载" },
+  { "id": "binding_load_Desc", "value": "加载一个场景。" },
+  { "id": "binding_importModel", "value": "导入模型" },
+  {
+    "id": "binding_importModel_Desc",
+    "value": "导入模型（.c3dp、.obj、.gltf、.glb、.dae）。"
+  },
+  { "id": "binding_exportFile", "value": "导出场景" },
+  {
+    "id": "binding_exportFile_Desc",
+    "value": "将场景导出为 .obj、.gltf、.glb 或 .dae 文件。"
+  },
+  { "id": "binding_exportObjects", "value": "导出对象" },
+  {
+    "id": "binding_exportObjects_Desc",
+    "value": "将对象导出为 .obj、.gltf、.glb 或 .dae 文件。"
+  },
+  { "id": "binding_exportSelectedObjects", "value": "导出选中对象" },
+  {
+    "id": "binding_exportSelectedObjects_Desc",
+    "value": "将选中的对象导出为 .obj、.gltf、.glb 或 .dae 文件。导出面板中将自动勾选这些对象。"
+  },
+  { "id": "binding_openRecentList", "value": "打开最近列表" },
+  {
+    "id": "binding_openRecentList_Desc",
+    "value": "打开最近使用的场景列表。"
+  },
+  { "id": "binding_renderCamera", "value": "渲染相机" },
+  {
+    "id": "binding_renderCamera_Desc",
+    "value": "打开渲染相机的设置面板。"
+  },
+  { "id": "binding_renderCameras", "value": "渲染相机" },
+  {
+    "id": "binding_renderCameras_Desc",
+    "value": "渲染所选的相机；若未选择任何相机，则使用默认相机进行渲染。"
+  },
+  { "id": "binding_renderSpin", "value": "渲染旋转 GIF" },
+  {
+    "id": "binding_renderSpin_Desc",
+    "value": "打开用于渲染旋转 GIF 的面板。"
+  },
+  { "id": "binding_renderMovie", "value": "渲染影片" },
+  {
+    "id": "binding_renderMovie_Desc",
+    "value": "打开用于渲染视频片段的面板。"
+  },
+  { "id": "binding_undo", "value": "撤销" },
+  { "id": "binding_undo_Desc", "value": "撤销最近执行的操作。" },
+  { "id": "binding_redo", "value": "重做" },
+  {
+    "id": "binding_redo_Desc",
+    "value": "重做最近被撤销的操作。"
+  },
+  { "id": "binding_toggleOpacity", "value": "切换透明度" },
+  {
+    "id": "binding_toggleOpacity_Desc",
+    "value": "更改纹理的透明度。"
+  },
+  { "id": "binding_toggleWireframe", "value": "切换线框显示" },
+  {
+    "id": "binding_toggleWireframe_Desc",
+    "value": "显示或隐藏图块的线框。"
+  },
+  { "id": "binding_toggleCameraStyle", "value": "切换相机类型" },
+  {
+    "id": "binding_toggleCameraStyle_Desc",
+    "value": "在透视视图和正交视图之间切换。"
+  },
+  { "id": "binding_toggleRenderTexture", "value": "切换纹理渲染" },
+  {
+    "id": "binding_toggleRenderTexture_Desc",
+    "value": "显示或隐藏图块集的纹理。适合用于更清晰地查看顶点颜色。"
+  },
+  {
+    "id": "binding_toggleRenderVertexColors",
+    "value": "切换顶点颜色渲染"
+  },
+  {
+    "id": "binding_toggleRenderVertexColors_Desc",
+    "value": "显示或隐藏使用当前选中图块集的图块的顶点颜色。"
+  },
+  { "id": "binding_toggleModulate2x", "value": "切换双倍调制" },
+  {
+    "id": "binding_toggleModulate2x_Desc",
+    "value": "切换双倍调制顶点颜色混合模式。启用后会将顶点颜色数值乘以 2。顶点颜色高于 0.5 灰度值会使纹理变亮，低于 0.5 则会使纹理变暗。"
+  },
+  { "id": "binding_toggleRenderBones", "value": "显示 / 隐藏所有骨骼" },
+  {
+    "id": "binding_toggleRenderBones_Desc",
+    "value": "显示或隐藏场景中的所有骨骼，同时保持任何嵌套实例可见。"
+  },
+  { "id": "binding_showHelper", "value": "显示辅助工具" },
+  {
+    "id": "binding_showHelper_Desc",
+    "value": "显示或隐藏坐标轴和十字准星。"
+  },
+  { "id": "binding_doubleSided", "value": "双面显示" },
+  {
+    "id": "binding_doubleSided_Desc",
+    "value": "为当前选中的图块集切换双面模式（图块集窗口中的活动图块集）。"
+  },
+  { "id": "binding_removePart", "value": "移除 / 删除" },
+  {
+    "id": "binding_removePart_Desc",
+    "value": "移除所有高亮的图块或对象。"
+  },
+  { "id": "binding_deselectAll", "value": "取消全选" },
+  {
+    "id": "binding_deselectAll_Desc",
+    "value": "取消选择所有顶点。再次按下将取消选择所有面。"
+  },
+  { "id": "binding_selectAll", "value": "全选" },
+  {
+    "id": "binding_selectAll_Desc",
+    "value": "选择所有高亮图块的顶点。再次按下将选择相邻图块的重叠顶点。"
+  },
+  { "id": "binding_deselectAllObjects", "value": "取消选择所有对象" },
+  {
+    "id": "binding_deselectAllObjects_Desc",
+    "value": "取消选择所有对象实例。"
+  },
+  { "id": "binding_selectAllObjects", "value": "选择所有对象" },
+  {
+    "id": "binding_selectAllObjects_Desc",
+    "value": "选择所有对象实例。"
+  },
+  { "id": "binding_deselectAllBones", "value": "取消选择所有骨骼" },
+  { "id": "binding_deselectAllBones_Desc", "value": "取消选择所有骨骼。" },
+  { "id": "binding_selectAllBones", "value": "选择所有骨骼" },
+  { "id": "binding_selectAllBones_Desc", "value": "选择所有骨骼。" },
+  {
+    "id": "binding_invertSelectionVerts",
+    "value": "反选（顶点）"
+  },
+  {
+    "id": "binding_invertSelectionVerts_Desc",
+    "value": "反转当前选择（仅限顶点）。未选中的顶点将被选中，已选中的顶点将被取消选择。"
+  },
+  { "id": "binding_invertSelectionFaces", "value": "反选（面）" },
+  {
+    "id": "binding_invertSelectionFaces_Desc",
+    "value": "反转当前选择（仅限面）。未选中的面将被选中，已选中的面将被取消选择。"
+  },
+  { "id": "binding_selectEdgeLoop", "value": "选择边循环" },
+  {
+    "id": "binding_selectEdgeLoop_Desc",
+    "value": "选择与当前选中边相连的所有开放边。"
+  },
+  { "id": "binding_mergeEdgeSafe", "value": "合并边（安全）" },
+  {
+    "id": "binding_mergeEdgeSafe_Desc",
+    "value": "合并两条重叠的边，使两个图块合并为一个。重叠顶点的 UV 必须一致。"
+  },
+  { "id": "binding_mergeEdgeForced", "value": "合并边（强制）" },
+  {
+    "id": "binding_mergeEdgeForced_Desc",
+    "value": "合并两条重叠的边，使两个图块合并为一个。即使重叠顶点的 UV 不一致也会强制合并。"
+  },
+  {
+    "id": "binding_selectUVGroupFaces",
+    "value": "选择同一 UV 组的面"
+  },
+  {
+    "id": "binding_selectUVGroupFaces_Desc",
+    "value": "选择与当前选中面处于同一 UV 组的所有面；如果未选中任何面，则以当前悬停的面为基准进行选择。"
+  },
+  {
+    "id": "binding_deselectUVGroupFaces",
+    "value": "取消选择同一 UV 组的面"
+  },
+  {
+    "id": "binding_deselectUVGroupFaces_Desc",
+    "value": "取消选择与当前选中面处于同一 UV 组的所有面；如果未选中任何面，则以当前悬停的面为基准进行取消选择。"
+  },
+  {
+    "id": "binding_selectTilesUsingTileset",
+    "value": "选择使用当前图块集的图块"
+  },
+  {
+    "id": "binding_selectTilesUsingTileset_Desc",
+    "value": "选择所有使用当前选中图块集的图块面。"
+  },
+  {
+    "id": "binding_deselectTilesUsingTileset",
+    "value": "取消选择使用当前图块集的图块"
+  },
+  {
+    "id": "binding_deselectTilesUsingTileset_Desc",
+    "value": "取消选择所有使用当前选中图块集的图块面。"
+  },
+  {
+    "id": "binding_selectVertexFace",
+    "value": "选择与顶点相连的面"
+  },
+  {
+    "id": "binding_selectVertexFace_Desc",
+    "value": "选择与当前选中顶点相连的面。第一次仅选择属于同一图块的面；第二次将选择不属于同一图块的面。"
+  },
+  {
+    "id": "binding_deselectVertexFace",
+    "value": "取消选择与顶点相连的面"
+  },
+  {
+    "id": "binding_deselectVertexFace_Desc",
+    "value": "取消选择与当前选中顶点相连的面。第一次仅取消选择属于同一图块的面；第二次将取消选择不属于同一图块的面。"
+  },
+  {
+    "id": "binding_selectFaceVertex",
+    "value": "选择与面相连的顶点"
+  },
+  {
+    "id": "binding_selectFaceVertex_Desc",
+    "value": "选择与当前选中面相连的顶点。第一次仅选择属于同一图块的顶点；第二次将选择不属于同一图块的顶点。"
+  },
+  {
+    "id": "binding_deselectFaceVertex",
+    "value": "取消选择与面相连的顶点"
+  },
+  {
+    "id": "binding_deselectFaceVertex_Desc",
+    "value": "取消选择与当前选中面相连的顶点。第一次仅取消选择属于同一图块的顶点；第二次将取消选择不属于同一图块的顶点。"
+  },
+  {
+    "id": "binding_selectUVsOfSelectedVertices",
+    "value": "选择选中顶点的 UV"
+  },
+  {
+    "id": "binding_selectUVsOfSelectedVertices_Desc",
+    "value": "选择当前已选中顶点的 UV 坐标。"
+  },
+  {
+    "id": "binding_deselectUVsOfSelectedVertices",
+    "value": "取消选择选中顶点的 UV"
+  },
+  {
+    "id": "binding_deselectUVsOfSelectedVertices_Desc",
+    "value": "取消选择当前已选中顶点的 UV 坐标。"
+  },
+  {
+    "id": "binding_selectVerticesOfSelectedUVs",
+    "value": "选择选中 UV 对应的顶点"
+  },
+  {
+    "id": "binding_selectVerticesOfSelectedUVs_Desc",
+    "value": "选择其 UV 坐标已被选中的顶点。"
+  },
+  {
+    "id": "binding_deselectVerticesOfSelectedUVs",
+    "value": "取消选择选中 UV 对应的顶点"
+  },
+  {
+    "id": "binding_deselectVerticesOfSelectedUVs_Desc",
+    "value": "取消选择其 UV 坐标已被选中的顶点。"
+  },
+  {
+    "id": "binding_selectOverlappingFaces",
+    "value": "选择重叠的面"
+  },
+  {
+    "id": "binding_selectOverlappingFaces_Desc",
+    "value": "选择相互重叠且朝向相同的图块，同时保留其中一个未被选中，以便轻松移除多余部分。"
+  },
+  { "id": "binding_selectFFCAxis", "value": "选择朝向相机轴的面" },
+  {
+    "id": "binding_selectFFCAxis_Desc",
+    "value": "选择沿最近主轴方向朝向相机的所有面。"
+  },
+  {
+    "id": "binding_deselectFFCAxis",
+    "value": "取消选择朝向相机轴的面"
+  },
+  {
+    "id": "binding_deselectFFCAxis_Desc",
+    "value": "取消选择沿最近主轴方向朝向相机的所有面。"
+  },
+  { "id": "binding_selectWFNR", "value": "选择面法线范围内的面" },
+  {
+    "id": "binding_selectWFNR_Desc",
+    "value": "选择所有与当前选中面相连，且其面法线方向位于已选面法线范围内的面。"
+  },
+  {
+    "id": "binding_deselectWFNR",
+    "value": "取消选择面法线范围内的面"
+  },
+  {
+    "id": "binding_deselectWFNR_Desc",
+    "value": "取消选择所有与当前选中面相连，且其面法线方向位于已选面法线范围内的面。"
+  },
+  { "id": "binding_triangleDivide", "value": "三角划分" },
+  {
+    "id": "binding_triangleDivide_Desc",
+    "value": "将选中的面划分为两个三角图块。每个图块仍由两个三角形组成，其中一个将折叠到自身。"
+  },
+  { "id": "binding_triangleMergeSafe", "value": "三角合并（安全）" },
+  {
+    "id": "binding_triangleMergeSafe_Desc",
+    "value": "合并三角图块，使两个三角形合并为一个图块。重叠顶点的 UV 必须一致。"
+  },
+  { "id": "binding_triangleMergeForced", "value": "三角合并（强制）" },
+  {
+    "id": "binding_triangleMergeForced_Desc",
+    "value": "合并三角图块，使两个三角形合并为一个图块。即使重叠顶点的 UV 不一致也会强制合并。"
+  },
+  { "id": "binding_selectTriangles", "value": "选择三角图块" },
+  {
+    "id": "binding_selectTriangles_Desc",
+    "value": "选择所有三角图块。"
+  },
+  { "id": "binding_orientUVs", "value": "对齐 UV" },
+  {
+    "id": "binding_orientUVs_Desc",
+    "value": "将选中面的所有 UV 统一对齐到相同方向。"
+  },
+  {
+    "id": "binding_applyTilebrushToFaces",
+    "value": "将图块画笔 UV 应用于面"
+  },
+  {
+    "id": "binding_applyTilebrushToFaces_Desc",
+    "value": "将图块画笔的 UV 应用到所有选中的面。"
+  },
+  {
+    "id": "binding_applyTilesetToFaces",
+    "value": "将图块集应用到选中面"
+  },
+  {
+    "id": "binding_applyTilesetToFaces_Desc",
+    "value": "为所有选中的面指定当前选中的图块集。"
+  },
+  { "id": "binding_toggleMode", "value": "切换模式" },
+  {
+    "id": "binding_toggleMode_Desc",
+    "value": "在编辑模式与绘制模式之间切换。"
+  },
+  { "id": "binding_focusNextPanel", "value": "打开下一个面板" },
+  {
+    "id": "binding_focusNextPanel_Desc",
+    "value": "打开侧边栏中列出的下一个面板。"
+  },
+  { "id": "binding_focusPrevPanel", "value": "打开上一个面板" },
+  {
+    "id": "binding_focusPrevPanel_Desc",
+    "value": "打开侧边栏中列出的上一个面板。"
+  },
+  { "id": "binding_openTilesetPanel", "value": "打开图块集面板" },
+  {
+    "id": "binding_openTilesetPanel_Desc",
+    "value": "打开图块集面板。"
+  },
+  { "id": "binding_openUVsPanel", "value": "打开 UV 面板" },
+  { "id": "binding_openUVsPanel_Desc", "value": "打开 UV 面板。" },
+  { "id": "binding_openPaintingPanel", "value": "打开绘制面板" },
+  {
+    "id": "binding_openPaintingPanel_Desc",
+    "value": "打开绘制面板。"
+  },
+  { "id": "binding_openTransformPanel", "value": "打开变换面板" },
+  {
+    "id": "binding_openTransformPanel_Desc",
+    "value": "打开变换面板。"
+  },
+  { "id": "binding_openScenePanel", "value": "打开场景面板" },
+  { "id": "binding_openScenePanel_Desc", "value": "打开场景面板。" },
+  { "id": "binding_toggleAnimationPanel", "value": "切换动画面板" },
+  {
+    "id": "binding_toggleAnimationPanel_Desc",
+    "value": "打开 / 关闭动画面板。"
+  },
+  { "id": "binding_focus3d", "value": "聚焦 3D 面板" },
+  { "id": "binding_focus3d_Desc", "value": "将焦点切换到 3D 面板。" },
+  { "id": "binding_only3d", "value": "仅显示 3D 面板" },
+  {
+    "id": "binding_only3d_Desc",
+    "value": "仅显示 3D 面板，切换侧边栏的显示 / 隐藏。"
+  },
+  { "id": "binding_snapCrosshair", "value": "将准星吸附到顶点" },
+  {
+    "id": "binding_snapCrosshair_Desc",
+    "value": "将准星吸附到鼠标悬停的最近顶点。"
+  },
+  { "id": "binding_snapGizmo", "value": "将小工具吸附到顶点" },
+  {
+    "id": "binding_snapGizmo_Desc",
+    "value": "将小工具吸附到鼠标悬停的最近顶点。"
+  },
+  { "id": "binding_centerGizmo", "value": "将小工具居中到选择" },
+  {
+    "id": "binding_centerGizmo_Desc",
+    "value": "将小工具居中到当前选择。"
+  },
+  { "id": "binding_gizmoModifier", "value": "小工具修饰键" },
+  {
+    "id": "binding_gizmoModifier_Desc",
+    "value": "在启用小工具时，按住此键可移动小工具而不移动当前选择。"
+  },
+  {
+    "id": "binding_gizmoCrosshairModifier",
+    "value": "小工具准星修饰键"
+  },
+  {
+    "id": "binding_gizmoCrosshairModifier_Desc",
+    "value": "在启用小工具时，按住此键可相对于小工具移动或旋转准星。"
+  },
+  { "id": "binding_moveSelectionUp", "value": "向上移动选择" },
+  { "id": "binding_moveSelectionUp_Desc", "value": "向上移动当前选择。" },
+  { "id": "binding_moveSelectionDown", "value": "向下移动选择" },
+  {
+    "id": "binding_moveSelectionDown_Desc",
+    "value": "向下移动当前选择。"
+  },
+  { "id": "binding_moveSelectionLeft", "value": "向左移动选择" },
+  {
+    "id": "binding_moveSelectionLeft_Desc",
+    "value": "向左移动当前选择。"
+  },
+  { "id": "binding_moveSelectionRight", "value": "向右移动选择" },
+  {
+    "id": "binding_moveSelectionRight_Desc",
+    "value": "向右移动当前选择。"
+  },
+  { "id": "binding_moveSelectionForward", "value": "向前移动选择" },
+  {
+    "id": "binding_moveSelectionForward_Desc",
+    "value": "向前移动当前选择。"
+  },
+  { "id": "binding_moveSelectionBackward", "value": "向后移动选择" },
+  {
+    "id": "binding_moveSelectionBackward_Desc",
+    "value": "向后移动当前选择。"
+  },
+  { "id": "binding_moveCrosshairUp", "value": "向上移动准星" },
+  {
+    "id": "binding_moveCrosshairUp_Desc",
+    "value": "向上移动准星，不会移动当前选择。"
+  },
+  { "id": "binding_moveCrosshairDown", "value": "向下移动准星" },
+  {
+    "id": "binding_moveCrosshairDown_Desc",
+    "value": "向下移动准星，不会移动当前选择。"
+  },
+  { "id": "binding_moveCrosshairLeft", "value": "向左移动准星" },
+  {
+    "id": "binding_moveCrosshairLeft_Desc",
+    "value": "向左移动准星，不会移动当前选择。"
+  },
+  { "id": "binding_moveCrosshairRight", "value": "向右移动准星" },
+  {
+    "id": "binding_moveCrosshairRight_Desc",
+    "value": "向右移动准星，不会移动当前选择。"
+  },
+  { "id": "binding_moveCrosshairForward", "value": "向前移动准星" },
+  {
+    "id": "binding_moveCrosshairForward_Desc",
+    "value": "向前移动准星，不会移动当前选择。"
+  },
+  { "id": "binding_moveCrosshairBackward", "value": "向后移动准星" },
+  {
+    "id": "binding_moveCrosshairBackward_Desc",
+    "value": "向后移动准星，不会移动当前选择。"
+  },
+  { "id": "binding_roundCrosshair", "value": "将准星吸附到网格" },
+  {
+    "id": "binding_roundCrosshair_Desc",
+    "value": "根据当前的网格取整值，将准星吸附到网格上。"
+  },
+  { "id": "binding_planeCrosshair", "value": "将准星定位到鼠标位置" },
+  {
+    "id": "binding_planeCrosshair_Desc",
+    "value": "将准星定位到鼠标所在位置，并沿着朝向相机的不可见绘制平面进行放置。"
+  },
+  { "id": "binding_planeX", "value": "将平面锁定为 X 方向" },
+  {
+    "id": "binding_planeX_Desc",
+    "value": "将不可见平面锁定为 X 方向。"
+  },
+  { "id": "binding_planeY", "value": "将平面锁定为 Y 方向" },
+  {
+    "id": "binding_planeY_Desc",
+    "value": "将不可见平面锁定为 Y 方向。"
+  },
+  { "id": "binding_planeZ", "value": "将平面锁定为 Z 方向" },
+  {
+    "id": "binding_planeZ_Desc",
+    "value": "将不可见平面锁定为 Z 方向。"
+  },
+  { "id": "binding_moveArrow", "value": "准星箭头修饰键" },
+  {
+    "id": "binding_moveArrow_Desc",
+    "value": "若在设置中启用了准星箭头，按住此键可移动准星箭头而不移动当前选择。"
+  },
+  { "id": "binding_toggleTilt", "value": "切换倾斜模式" },
+  {
+    "id": "binding_toggleTilt_Desc",
+    "value": "启用后，可倾斜用于在场景中绘制图块以及移动顶点和面的网格空间。"
+  },
+  { "id": "binding_setTiltAnchor", "value": "设置倾斜锚点" },
+  {
+    "id": "binding_setTiltAnchor_Desc",
+    "value": "将鼠标悬停在图块上并按下此键。倾斜锚点将相对于该图块最近的顶点进行定位。"
+  },
+  { "id": "binding_zoomIn", "value": "放大图块集" },
+  { "id": "binding_zoomIn_Desc", "value": "放大图块集视图。" },
+  { "id": "binding_zoomOut", "value": "缩小图块集" },
+  { "id": "binding_zoomOut_Desc", "value": "缩小图块集视图。" },
+  { "id": "binding_zoomTileset", "value": "缩放图块集" },
+  {
+    "id": "binding_zoomTileset_Desc",
+    "value": "无需使用滚轮即可缩放图块集的替代方式。自定义数值用于指定拖动鼠标多远才会触发缩放变化。"
+  },
+  { "id": "binding_brushSizeUp", "value": "增大画笔大小" },
+  { "id": "binding_brushSizeUp_Desc", "value": "增大绘制画笔的大小。" },
+  { "id": "binding_brushSizeDown", "value": "减小画笔大小" },
+  { "id": "binding_brushSizeDown_Desc", "value": "减小绘制画笔的大小。" },
+  { "id": "binding_roundingUp", "value": "增大网格取整" },
+  {
+    "id": "binding_roundingUp_Desc",
+    "value": "调整网格的取整数值。"
+  },
+  { "id": "binding_roundingDown", "value": "减小网格取整" },
+  {
+    "id": "binding_roundingDown_Desc",
+    "value": "调整网格的取整数值。"
+  },
+  { "id": "binding_roundingUpCustom", "value": "自定义网格取整增量" },
+  {
+    "id": "binding_roundingUpCustom_Desc",
+    "value": "按自定义数值调整网格取整（在设置中定义）。"
+  },
+  { "id": "binding_roundingDownCustom", "value": "自定义减小网格取整" },
+  {
+    "id": "binding_roundingDownCustom_Desc",
+    "value": "按自定义数值调整网格取整（在设置中定义）。"
+  },
+  { "id": "binding_roundingPreset1", "value": "网格取整预设 1" },
+  {
+    "id": "binding_roundingPreset1_Desc",
+    "value": "将网格取整数值设置为下方指定的预设值。"
+  },
+  { "id": "binding_roundingPreset2", "value": "网格取整预设 2" },
+  {
+    "id": "binding_roundingPreset2_Desc",
+    "value": "将网格取整数值设置为下方指定的预设值。"
+  },
+  { "id": "binding_roundingPreset3", "value": "网格取整预设 3" },
+  {
+    "id": "binding_roundingPreset3_Desc",
+    "value": "将网格取整数值设置为下方指定的预设值。"
+  },
+  { "id": "binding_roundingPreset4", "value": "网格取整预设 4" },
+  {
+    "id": "binding_roundingPreset4_Desc",
+    "value": "将网格取整数值设置为下方指定的预设值。"
+  },
+  { "id": "binding_tilesetUp", "value": "下一个图块集" },
+  { "id": "binding_tilesetUp_Desc", "value": "选择下一个图块集。" },
+  { "id": "binding_tilesetDown", "value": "上一个图块集" },
+  { "id": "binding_tilesetDown_Desc", "value": "选择上一个图块集。" },
+  { "id": "binding_reloadTilesets", "value": "重新加载 / 刷新所有图块集" },
+  {
+    "id": "binding_reloadTilesets_Desc",
+    "value": "重新加载 / 刷新所有图块集。在 Crocotile 中对图块集所做的任何修改都可能会丢失。"
+  },
+  { "id": "binding_cardinalButtons", "value": "主方向按钮" },
+  {
+    "id": "binding_cardinalButtons_Desc",
+    "value": "显示可用于将相机旋转到各个主方向的按钮。"
+  },
+  { "id": "binding_cardinalRotateLeft", "value": "主方向向左旋转" },
+  {
+    "id": "binding_cardinalRotateLeft_Desc",
+    "value": "向最近的主方向向左旋转。"
+  },
+  { "id": "binding_cardinalRotateRight", "value": "主方向向右旋转" },
+  {
+    "id": "binding_cardinalRotateRight_Desc",
+    "value": "向最近的主方向向右旋转。"
+  },
+  { "id": "binding_cardinalRotateUp", "value": "主方向向上旋转" },
+  {
+    "id": "binding_cardinalRotateUp_Desc",
+    "value": "向最近的主方向向上旋转。"
+  },
+  { "id": "binding_cardinalRotateDown", "value": "主方向向下旋转" },
+  {
+    "id": "binding_cardinalRotateDown_Desc",
+    "value": "向最近的主方向向下旋转。"
+  },
+  { "id": "binding_rotateScene", "value": "旋转场景" },
+  { "id": "binding_rotateScene_Desc", "value": "旋转相机。" },
+  { "id": "binding_zoomScene", "value": "缩放场景" },
+  { "id": "binding_zoomScene_Desc", "value": "缩放相机。" },
+  { "id": "binding_panScene", "value": "平移场景" },
+  { "id": "binding_panScene_Desc", "value": "平移相机。" },
+  { "id": "binding_dollyIn", "value": "拉远镜头" },
+  { "id": "binding_dollyIn_Desc", "value": "将相机拉远。" },
+  { "id": "binding_dollyOut", "value": "拉近镜头" },
+  { "id": "binding_dollyOut_Desc", "value": "将相机拉近。" },
+  { "id": "binding_centerCamera", "value": "居中相机" },
+  {
+    "id": "binding_centerCamera_Desc",
+    "value": "将相机居中到当前选择。"
+  },
+  { "id": "binding_moveCameraForward", "value": "相机前移" },
+  {
+    "id": "binding_moveCameraForward_Desc",
+    "value": "向前移动相机。"
+  },
+  { "id": "binding_moveCameraBackward", "value": "相机后移" },
+  {
+    "id": "binding_moveCameraBackward_Desc",
+    "value": "向后移动相机。"
+  },
+  { "id": "binding_moveCameraLeft", "value": "相机左移" },
+  {
+    "id": "binding_moveCameraLeft_Desc",
+    "value": "向左平移相机。"
+  },
+  { "id": "binding_moveCameraRight", "value": "相机右移" },
+  {
+    "id": "binding_moveCameraRight_Desc",
+    "value": "向右平移相机。"
+  },
+  { "id": "binding_freeLook", "value": "自由视角模式" },
+  { "id": "binding_freeLook_Desc", "value": "开启 / 关闭自由视角模式。" },
+  { "id": "binding_freeLookForward", "value": "自由视角前进" },
+  {
+    "id": "binding_freeLookForward_Desc",
+    "value": "在自由视角模式下向前移动。"
+  },
+  { "id": "binding_freeLookBackward", "value": "自由视角后退" },
+  {
+    "id": "binding_freeLookBackward_Desc",
+    "value": "在自由视角模式下向后移动。"
+  },
+  { "id": "binding_freeLookLeft", "value": "自由视角左移" },
+  {
+    "id": "binding_freeLookLeft_Desc",
+    "value": "在自由视角模式下向左移动。"
+  },
+  { "id": "binding_freeLookRight", "value": "自由视角右移" },
+  {
+    "id": "binding_freeLookRight_Desc",
+    "value": "在自由视角模式下向右移动。"
+  },
+  { "id": "binding_freeLookUp", "value": "自由视角上移" },
+  { "id": "binding_freeLookUp_Desc", "value": "在自由视角模式下向上移动。" },
+  { "id": "binding_freeLookDown", "value": "自由视角下移" },
+  { "id": "binding_freeLookDown_Desc", "value": "在自由视角模式下向下移动。" },
+  { "id": "binding_freeLookFaster", "value": "自由视角加速" },
+  {
+    "id": "binding_freeLookFaster_Desc",
+    "value": "按住此键可加快自由视角移动速度。下方指定的数值决定速度提升的倍数。"
+  },
+  { "id": "binding_freeLookSlower", "value": "自由视角减速" },
+  {
+    "id": "binding_freeLookSlower_Desc",
+    "value": "按住此键可减慢自由视角移动速度。下方指定的数值决定速度降低的倍数。"
+  },
+  { "id": "binding_toggleCameraMode", "value": "切换相机模式" },
+  {
+    "id": "binding_toggleCameraMode_Desc",
+    "value": "如果在设置中启用了相机切换，此操作将切换相机模式。"
+  },
+  { "id": "binding_toggleRotateScene", "value": "切换旋转场景" },
+  { "id": "binding_toggleRotateScene_Desc", "value": "旋转相机。" },
+  { "id": "binding_toggleZoomScene", "value": "切换缩放场景" },
+  { "id": "binding_toggleZoomScene_Desc", "value": "缩放相机。" },
+  { "id": "binding_togglePanScene", "value": "切换平移场景" },
+  { "id": "binding_togglePanScene_Desc", "value": "平移相机。" },
+  { "id": "binding_eraseTile", "value": "擦除图块" },
+  { "id": "binding_eraseTile_Desc", "value": "点击时擦除鼠标悬停的图块。" },
+  { "id": "binding_erasePrefab", "value": "擦除预制件" },
+  {
+    "id": "binding_erasePrefab_Desc",
+    "value": "点击时擦除鼠标悬停的预制件对象。"
+  },
+  { "id": "binding_rotateUVRight", "value": "顺时针旋转 UV" },
+  { "id": "binding_rotateUVRight_Desc", "value": "顺时针旋转图块画笔的 UV。" },
+  { "id": "binding_rotateUVLeft", "value": "逆时针旋转 UV" },
+  { "id": "binding_rotateUVLeft_Desc", "value": "逆时针旋转图块画笔的 UV。" },
+  { "id": "binding_rotatePrefabCWise", "value": "顺时针旋转预制件" },
+  { "id": "binding_rotatePrefabCWise_Desc", "value": "顺时针旋转预制件画笔。" },
+  { "id": "binding_rotatePrefabCCWise", "value": "逆时针旋转预制件" },
+  {
+    "id": "binding_rotatePrefabCCWise_Desc",
+    "value": "逆时针旋转预制件画笔。"
+  },
+  { "id": "binding_cyclePrefabPrev", "value": "上一个预制件" },
+  {
+    "id": "binding_cyclePrefabPrev_Desc",
+    "value": "选择列表中的上一个预制件。"
+  },
+  { "id": "binding_cyclePrefabNext", "value": "下一个预制件" },
+  {
+    "id": "binding_cyclePrefabNext_Desc",
+    "value": "选择列表中的下一个预制件。"
+  },
+  { "id": "binding_copyUV", "value": "复制 UV / 顶点颜色" },
+  {
+    "id": "binding_copyUV_Desc",
+    "value": "吸取场景中的图块，并将其 UV 应用到画笔上。如果使用的是顶点颜色工具，则会吸取颜色。"
+  },
+  { "id": "binding_applyUV", "value": "应用 UV / 顶点颜色" },
+  {
+    "id": "binding_applyUV_Desc",
+    "value": "将画笔当前的 UV 应用到场景中的图块上，而不修改网格。如果使用的是顶点颜色工具，则会应用颜色。"
+  },
+  { "id": "binding_flipUV", "value": "翻转 UV" },
+  { "id": "binding_flipUV_Desc", "value": "翻转图块画笔的 UV。" },
+  { "id": "binding_mirrorUV", "value": "镜像 UV" },
+  { "id": "binding_mirrorUV_Desc", "value": "镜像图块画笔的 UV。" },
+  { "id": "binding_drawToolTile", "value": "选择图块工具" },
+  { "id": "binding_drawToolTile_Desc", "value": "选择图块工具。" },
+  { "id": "binding_drawToolSticky", "value": "选择粘附工具" },
+  { "id": "binding_drawToolSticky_Desc", "value": "选择粘附工具。" },
+  { "id": "binding_drawToolBlock", "value": "选择方块工具" },
+  { "id": "binding_drawToolBlock_Desc", "value": "选择方块工具。" },
+  { "id": "binding_drawToolPrimitive", "value": "选择基础体工具" },
+  { "id": "binding_drawToolPrimitive_Desc", "value": "选择基础体工具。" },
+  { "id": "binding_drawToolVertexColor", "value": "选择顶点颜色工具" },
+  { "id": "binding_drawToolVertexColor_Desc", "value": "选择顶点颜色工具。" },
+  { "id": "binding_drawToolPencil", "value": "选择铅笔工具" },
+  { "id": "binding_drawToolPencil_Desc", "value": "选择铅笔工具。" },
+  { "id": "binding_stickyScale", "value": "粘附缩放以适配" },
+  {
+    "id": "binding_stickyScale_Desc",
+    "value": "使用粘附工具时，将图块缩放以贴合已有图块的边缘。"
+  },
+  {
+    "id": "binding_toggleVertexColorApplication",
+    "value": "切换顶点颜色应用模式"
+  },
+  {
+    "id": "binding_toggleVertexColorApplication_Desc",
+    "value": "切换顶点颜色应用模式设置。"
+  },
+  { "id": "binding_vertexColorLasso", "value": "顶点颜色套索选择" },
+  {
+    "id": "binding_vertexColorLasso_Desc",
+    "value": "对位于选择框内的顶点进行顶点颜色绘制或擦除。按住此键并点击拖动以选择区域，从而应用或移除顶点颜色。"
+  },
+  { "id": "binding_vertexColorSpot", "value": "顶点颜色整点模式" },
+  {
+    "id": "binding_vertexColorSpot_Desc",
+    "value": "按住此键时，顶点颜色的绘制与擦除将作用于图块的四个顶点，而不是最近的单个顶点。"
+  },
+  { "id": "binding_cameraBasedSelection", "value": "基于相机的选择" },
+  {
+    "id": "binding_cameraBasedSelection_Desc",
+    "value": "允许或禁止选择被其他图块遮挡的顶点或面。"
+  },
+  { "id": "binding_toggleGizmo", "value": "切换小工具" },
+  { "id": "binding_toggleGizmo_Desc", "value": "开启或关闭小工具。" },
+  { "id": "binding_toggleGizmoMode", "value": "切换小工具模式" },
+  {
+    "id": "binding_toggleGizmoMode_Desc",
+    "value": "在移动、旋转和缩放小工具模式之间切换。"
+  },
+  { "id": "binding_gizmoTranslate", "value": "小工具移动模式" },
+  { "id": "binding_gizmoTranslate_Desc", "value": "将小工具模式切换为移动。" },
+  { "id": "binding_gizmoRotate", "value": "小工具旋转模式" },
+  { "id": "binding_gizmoRotate_Desc", "value": "将小工具模式切换为旋转。" },
+  { "id": "binding_gizmoScale", "value": "小工具缩放模式" },
+  { "id": "binding_gizmoScale_Desc", "value": "将小工具模式切换为缩放。" },
+  { "id": "binding_gizmoProportional", "value": "小工具保持比例" },
+  {
+    "id": "binding_gizmoProportional_Desc",
+    "value": "在两个轴向缩放时保持比例不变。"
+  },
+  { "id": "binding_toggleGizmoAlignment", "value": "切换小工具对齐方式" },
+  {
+    "id": "binding_toggleGizmoAlignment_Desc",
+    "value": "在世界坐标与对象坐标之间切换小工具对齐方式。"
+  },
+  { "id": "binding_gizmoTempOff", "value": "临时禁用小工具" },
+  {
+    "id": "binding_gizmoTempOff_Desc",
+    "value": "按住此键时，将无法与小工具进行交互。"
+  },
+  { "id": "binding_centerCrosshair", "value": "十字准星平均居中" },
+  {
+    "id": "binding_centerCrosshair_Desc",
+    "value": "将十字准星定位到当前选中的顶点、面和对象的平均位置。"
+  },
+  { "id": "binding_centerCrosshairBounds", "value": "十字准星边界居中" },
+  {
+    "id": "binding_centerCrosshairBounds_Desc",
+    "value": "将十字准星居中到当前选中顶点、面和对象的边界范围中心。"
+  },
+  { "id": "binding_nearestVert", "value": "选择最近顶点" },
+  {
+    "id": "binding_nearestVert_Desc",
+    "value": "按住此键并点击图块，将选择该图块上最近的顶点。"
+  },
+  { "id": "binding_vertSnap", "value": "顶点吸附" },
+  {
+    "id": "binding_vertSnap_Desc",
+    "value": "拖动单个顶点时按住此键，可将其吸附到附近的顶点。也可以使用小工具对整个选择进行吸附。"
+  },
+  { "id": "binding_hollowVert", "value": "空心顶点操作" },
+  {
+    "id": "binding_hollowVert_Desc",
+    "value": "按住此键并点击顶点，可在不选中顶点的情况下重新定位十字准星。"
+  },
+  { "id": "binding_disableFaceSelection", "value": "启用 / 禁用面选择" },
+  { "id": "binding_disableVertexSelection", "value": "启用 / 禁用顶点选择" },
+  { "id": "binding_disableEdgeSelection", "value": "启用 / 禁用边选择" },
+  {
+    "id": "binding_disableFaceSelection_Desc",
+    "value": "切换是否允许选择面。"
+  },
+  {
+    "id": "binding_disableVertexSelection_Desc",
+    "value": "切换是否允许选择顶点。"
+  },
+  {
+    "id": "binding_disableEdgeSelection_Desc",
+    "value": "切换是否允许选择边。"
+  },
+  { "id": "binding_spotSelectFace", "value": "悬停选择面" },
+  {
+    "id": "binding_spotSelectFace_Desc",
+    "value": "将鼠标悬停在图块上即可选择。按住此键后点击并拖动以进行选择。"
+  },
+  { "id": "binding_spotDeselectFace", "value": "悬停取消选择面" },
+  {
+    "id": "binding_spotDeselectFace_Desc",
+    "value": "将鼠标悬停在图块上即可取消选择。按住此键后点击并拖动以取消选择。"
+  },
+  { "id": "binding_selectMultiple", "value": "多重选择" },
+  {
+    "id": "binding_selectMultiple_Desc",
+    "value": "当启用自动取消选择时，按住此键可在选择单个顶点、面、边或实体时避免取消已有选择。"
+  },
+  { "id": "binding_lassoFace", "value": "框选面" },
+  {
+    "id": "binding_lassoFace_Desc",
+    "value": "用于图块的框选工具。按住此键并点击拖动以选择。"
+  },
+  { "id": "binding_lassoDeselectFace", "value": "框选取消面" },
+  {
+    "id": "binding_lassoDeselectFace_Desc",
+    "value": "用于图块的取消选择框选。按住此键并点击拖动以取消选择面。"
+  },
+  { "id": "binding_lassoDeselect", "value": "框选取消顶点" },
+  {
+    "id": "binding_lassoDeselect_Desc",
+    "value": "用于顶点的取消选择框选。按住此键并点击拖动以取消选择顶点。"
+  },
+  { "id": "binding_lassoEdge", "value": "框选边" },
+  {
+    "id": "binding_lassoEdge_Desc",
+    "value": "用于边的框选工具。按住此键并点击拖动以选择。"
+  },
+  { "id": "binding_lassoDeselectEdge", "value": "框选取消边" },
+  {
+    "id": "binding_lassoDeselectEdge_Desc",
+    "value": "用于边的取消选择框选。按住此键并点击拖动以取消选择边。"
+  },
+  { "id": "binding_lassoObject", "value": "框选对象" },
+  {
+    "id": "binding_lassoObject_Desc",
+    "value": "用于对象实例的框选工具。按住此键并点击拖动以选择。"
+  },
+  { "id": "binding_lassoDeselectObject", "value": "框选取消对象" },
+  {
+    "id": "binding_lassoDeselectObject_Desc",
+    "value": "用于对象实例的取消选择框选。按住此键并点击拖动以取消选择对象实例。"
+  },
+  { "id": "binding_rotatePartRight", "value": "向右旋转选择" },
+  {
+    "id": "binding_rotatePartRight_Desc",
+    "value": "根据相机角度向右旋转所选内容。"
+  },
+  { "id": "binding_rotatePartLeft", "value": "向左旋转选择" },
+  {
+    "id": "binding_rotatePartLeft_Desc",
+    "value": "根据相机角度向左旋转所选内容。"
+  },
+  { "id": "binding_rotatePartCWise", "value": "顺时针旋转选择" },
+  {
+    "id": "binding_rotatePartCWise_Desc",
+    "value": "根据相机角度顺时针旋转所选内容。"
+  },
+  { "id": "binding_rotatePartCCWise", "value": "逆时针旋转选择" },
+  {
+    "id": "binding_rotatePartCCWise_Desc",
+    "value": "根据相机角度逆时针旋转所选内容。"
+  },
+  { "id": "binding_rotateRightInterval", "value": "按间隔向右旋转选择" },
+  {
+    "id": "binding_rotateRightInterval_Desc",
+    "value": "根据旋转间隔和相机角度向右旋转所选内容。"
+  },
+  { "id": "binding_rotateLeftInterval", "value": "按间隔向左旋转选择" },
+  {
+    "id": "binding_rotateLeftInterval_Desc",
+    "value": "根据旋转间隔和相机角度向左旋转所选内容。"
+  },
+  { "id": "binding_rotateCWiseInterval", "value": "按间隔顺时针旋转选择" },
+  {
+    "id": "binding_rotateCWiseInterval_Desc",
+    "value": "根据旋转间隔和相机角度顺时针旋转所选内容。"
+  },
+  { "id": "binding_rotateCCWiseInterval", "value": "按间隔逆时针旋转选择" },
+  {
+    "id": "binding_rotateCCWiseInterval_Desc",
+    "value": "根据旋转间隔和相机角度逆时针旋转所选内容。"
+  },
+  { "id": "binding_flipPart", "value": "翻转选择" },
+  { "id": "binding_flipPart_Desc", "value": "根据相机角度翻转所选内容。" },
+  { "id": "binding_mirrorPart", "value": "镜像选择" },
+  { "id": "binding_mirrorPart_Desc", "value": "根据相机角度镜像所选内容。" },
+  { "id": "binding_flipEdge", "value": "翻转边" },
+  { "id": "binding_flipEdge_Desc", "value": "翻转图块的边。" },
+  { "id": "binding_reverseFace", "value": "反转面" },
+  { "id": "binding_reverseFace_Desc", "value": "反转图块的面。" },
+  { "id": "binding_splitFace", "value": "分割面" },
+  {
+    "id": "binding_splitFace_Desc",
+    "value": "在黄色指示线位置分割当前活动图块的面。"
+  },
+  { "id": "binding_subdivideFace", "value": "细分面" },
+  { "id": "binding_subdivideFace_Desc", "value": "细分当前活动图块的面。" },
+  { "id": "binding_extrude", "value": "挤出" },
+  {
+    "id": "binding_extrude_Desc",
+    "value": "挤出图块的面或边。按住此键并点击拖动鼠标以进行挤出。"
+  },
+  { "id": "binding_rectangle", "value": "矩形填充" },
+  {
+    "id": "binding_rectangle_Desc",
+    "value": "用图块填充一个矩形区域。按住此键并点击拖动鼠标以创建要填充的矩形区域。"
+  },
+  { "id": "binding_hideTiles", "value": "隐藏图块" },
+  { "id": "binding_hideTiles_Desc", "value": "将所选图块从视图中隐藏。" },
+  { "id": "binding_showTiles", "value": "显示图块" },
+  { "id": "binding_showTiles_Desc", "value": "显示所有被隐藏的图块。" },
+  { "id": "binding_combineVerts", "value": "合并顶点" },
+  {
+    "id": "binding_combineVerts_Desc",
+    "value": "将所有选中的顶点移动到十字准星位置。"
+  },
+  { "id": "binding_alignAgainst", "value": "推靠对齐" },
+  {
+    "id": "binding_alignAgainst_Desc",
+    "value": "沿相机所朝向的轴向方向，将选中的顶点和对象推靠到场景中已有的图块上。"
+  },
+  { "id": "binding_alignGroupAgainst", "value": "整体推靠对齐" },
+  {
+    "id": "binding_alignGroupAgainst_Desc",
+    "value": "沿相机所朝向的轴向方向，将选中的顶点和对象作为一个整体推靠到场景中已有的图块上。此操作会整体移动分组，并保持它们之间的相对位置不变。"
+  },
+  { "id": "binding_straightenVertTiles", "value": "相对于所属图块拉直" },
+  {
+    "id": "binding_straightenVertTiles_Desc",
+    "value": "将顶点相对于其所属的图块进行拉直。对齐到相对三角面的法线方向，若两个顶点都被选中则取平均方向，从而生成平整的图块。"
+  },
+  { "id": "binding_flattenSelection", "value": "压平选择" },
+  {
+    "id": "binding_flattenSelection_Desc",
+    "value": "将所选内容压平到 3D 十字准星平面上。"
+  },
+  { "id": "binding_pushSelection", "value": "推向选择" },
+  {
+    "id": "binding_pushSelection_Desc",
+    "value": "将所选内容推向 3D 十字准星平面，使其接触并与之对齐。"
+  },
+  { "id": "binding_centerSelection", "value": "居中选择" },
+  {
+    "id": "binding_centerSelection_Desc",
+    "value": "将所选内容居中到 3D 十字准星平面上，使其与之对齐。"
+  },
+  { "id": "binding_pullSelection", "value": "拉向选择" },
+  {
+    "id": "binding_pullSelection_Desc",
+    "value": "将所选内容拉向 3D 十字准星平面，使其接触并与之对齐。"
+  },
+  { "id": "binding_roundVertices", "value": "顶点对齐到网格" },
+  {
+    "id": "binding_roundVertices_Desc",
+    "value": "根据当前的网格取整值，将选中的顶点对齐到网格。"
+  },
+  { "id": "binding_roundVerticesPixel", "value": "顶点对齐到像素" },
+  {
+    "id": "binding_roundVerticesPixel_Desc",
+    "value": "将选中的顶点对齐到最近的像素（等同于网格取整值为 1）。"
+  },
+  { "id": "binding_lookAtCrosshair", "value": "朝向十字准星" },
+  {
+    "id": "binding_lookAtCrosshair_Desc",
+    "value": "使所有选中的实例或实体朝向当前十字准星位置。"
+  },
+  { "id": "binding_selectX", "value": "选择 X 轴" },
+  { "id": "binding_selectX_Desc", "value": "沿 3D 十字准星的 X 轴选择顶点。" },
+  { "id": "binding_selectY", "value": "选择 Y 轴" },
+  { "id": "binding_selectY_Desc", "value": "沿 3D 十字准星的 Y 轴选择顶点。" },
+  { "id": "binding_selectZ", "value": "选择 Z 轴" },
+  { "id": "binding_selectZ_Desc", "value": "沿 3D 十字准星的 Z 轴选择顶点。" },
+  { "id": "binding_bakeLighting", "value": "烘焙光照" },
+  {
+    "id": "binding_bakeLighting_Desc",
+    "value": "根据场景中的灯光或环境光遮蔽，修改所选顶点的顶点颜色。"
+  },
+  { "id": "binding_paintSelectedVertexColors", "value": "绘制所选顶点颜色" },
+  {
+    "id": "binding_paintSelectedVertexColors_Desc",
+    "value": "使用当前绘制颜色为所选顶点绘制顶点颜色。"
+  },
+  { "id": "binding_eraseSelectedVertexColors", "value": "擦除所选顶点颜色" },
+  {
+    "id": "binding_eraseSelectedVertexColors_Desc",
+    "value": "擦除所选顶点的顶点颜色。"
+  },
+  { "id": "binding_selectUsingVertexColor", "value": "按当前颜色选择顶点" },
+  {
+    "id": "binding_selectUsingVertexColor_Desc",
+    "value": "选择所有使用当前绘制颜色的顶点。"
+  },
+  {
+    "id": "binding_deselectUsingVertexColor",
+    "value": "按当前颜色取消选择顶点"
+  },
+  {
+    "id": "binding_deselectUsingVertexColor_Desc",
+    "value": "取消选择所有使用当前绘制颜色的顶点。"
+  },
+  { "id": "binding_sceneVertexColors", "value": "场景顶点颜色" },
+  {
+    "id": "binding_sceneVertexColors_Desc",
+    "value": "打开一个面板，用于调整或修改整个场景的顶点颜色。"
+  },
+  { "id": "binding_toggleObjectMode", "value": "切换对象模式" },
+  { "id": "binding_toggleObjectMode_Desc", "value": "开启或关闭对象模式。" },
+  { "id": "binding_toggleActiveMode", "value": "切换活动模式" },
+  { "id": "binding_toggleActiveMode_Desc", "value": "开启或关闭活动模式。" },
+  { "id": "binding_contextEditMenu", "value": "上下文编辑菜单" },
+  {
+    "id": "binding_contextEditMenu_Desc",
+    "value": "在编辑模式下打开一个包含可用操作列表的菜单。"
+  },
+  { "id": "binding_adjustVertexUVUp", "value": "向上移动顶点 UV" },
+  {
+    "id": "binding_adjustVertexUVUp_Desc",
+    "value": "将所选顶点的 UV 向上偏移。"
+  },
+  { "id": "binding_adjustVertexUVDown", "value": "向下移动顶点 UV" },
+  {
+    "id": "binding_adjustVertexUVDown_Desc",
+    "value": "将所选顶点的 UV 向下偏移。"
+  },
+  { "id": "binding_adjustVertexUVLeft", "value": "向左移动顶点 UV" },
+  {
+    "id": "binding_adjustVertexUVLeft_Desc",
+    "value": "将所选顶点的 UV 向左偏移。"
+  },
+  { "id": "binding_adjustVertexUVRight", "value": "向右移动顶点 UV" },
+  {
+    "id": "binding_adjustVertexUVRight_Desc",
+    "value": "将所选顶点的 UV 向右偏移。"
+  },
+  { "id": "binding_adjustVertexUVUpOne", "value": "向上移动顶点 UV 一个像素" },
+  {
+    "id": "binding_adjustVertexUVUpOne_Desc",
+    "value": "将所选顶点的 UV 向上偏移一个像素。"
+  },
+  {
+    "id": "binding_adjustVertexUVDownOne",
+    "value": "向下移动顶点 UV 一个像素"
+  },
+  {
+    "id": "binding_adjustVertexUVDownOne_Desc",
+    "value": "将所选顶点的 UV 向下偏移一个像素。"
+  },
+  {
+    "id": "binding_adjustVertexUVLeftOne",
+    "value": "向左移动顶点 UV 一个像素"
+  },
+  {
+    "id": "binding_adjustVertexUVLeftOne_Desc",
+    "value": "将所选顶点的 UV 向左偏移一个像素。"
+  },
+  {
+    "id": "binding_adjustVertexUVRightOne",
+    "value": "向右移动顶点 UV 一个像素"
+  },
+  {
+    "id": "binding_adjustVertexUVRightOne_Desc",
+    "value": "将所选顶点的 UV 向右偏移一个像素。"
+  },
+  { "id": "binding_toggleAutoFlatten", "value": "切换自动展平" },
+  {
+    "id": "binding_toggleAutoFlatten_Desc",
+    "value": "启用后，在变换顶点时会自动展平 UV。UV 会根据图块的形状进行扩展或收缩。"
+  },
+  { "id": "binding_createObject", "value": "创建对象" },
+  {
+    "id": "binding_createObject_Desc",
+    "value": "将选中的图块组合成一个独立的对象。"
+  },
+  { "id": "binding_createBone", "value": "创建骨骼" },
+  { "id": "binding_createBone_Desc", "value": "向场景中添加一个骨骼。" },
+  { "id": "binding_addToScene", "value": "添加到场景" },
+  {
+    "id": "binding_addToScene_Desc",
+    "value": "将选中的对象或实例添加到场景中 3D 十字准星所在的位置。"
+  },
+  { "id": "binding_deconstructInstance", "value": "解构实例" },
+  {
+    "id": "binding_deconstructInstance_Desc",
+    "value": "将选中的对象实例解构为独立的图块。"
+  },
+  { "id": "binding_duplicateInstances", "value": "复制实例" },
+  { "id": "binding_duplicateInstances_Desc", "value": "复制选中的对象实例。" },
+  { "id": "binding_instanceToCrosshair", "value": "将实例移动到十字准星" },
+  {
+    "id": "binding_instanceToCrosshair_Desc",
+    "value": "将选中的对象实例移动到当前 3D 十字准星的位置。"
+  },
+  { "id": "binding_originToCrosshair", "value": "将原点移动到十字准星" },
+  {
+    "id": "binding_originToCrosshair_Desc",
+    "value": "将选中对象的原点移动到当前 3D 十字准星的位置。"
+  },
+  { "id": "binding_panTileset", "value": "平移图块集" },
+  { "id": "binding_panTileset_Desc", "value": "平移图块集视图。" },
+  { "id": "binding_scrollTileset_Left", "value": "向左滚动图块集" },
+  { "id": "binding_scrollTileset_Left_Desc", "value": "将图块集向左滚动。" },
+  { "id": "binding_scrollTileset_Right", "value": "向右滚动图块集" },
+  { "id": "binding_scrollTileset_Right_Desc", "value": "将图块集向右滚动。" },
+  { "id": "binding_scrollTileset_Up", "value": "向上滚动图块集" },
+  { "id": "binding_scrollTileset_Up_Desc", "value": "将图块集向上滚动。" },
+  { "id": "binding_scrollTileset_Down", "value": "向下滚动图块集" },
+  { "id": "binding_scrollTileset_Down_Desc", "value": "将图块集向下滚动。" },
+  { "id": "binding_tileset_MoveLeft", "value": "向左移动选择" },
+  {
+    "id": "binding_tileset_MoveLeft_Desc",
+    "value": "根据 UV 精度值，将图块选择向左移动若干像素。"
+  },
+  { "id": "binding_tileset_MoveRight", "value": "向右移动选择" },
+  {
+    "id": "binding_tileset_MoveRight_Desc",
+    "value": "根据 UV 精度值，将图块选择向右移动若干像素。"
+  },
+  { "id": "binding_tileset_MoveUp", "value": "向上移动选择" },
+  {
+    "id": "binding_tileset_MoveUp_Desc",
+    "value": "根据 UV 精度值，将图块选择向上移动若干像素。"
+  },
+  { "id": "binding_tileset_MoveDown", "value": "向下移动选择" },
+  {
+    "id": "binding_tileset_MoveDown_Desc",
+    "value": "根据 UV 精度值，将图块选择向下移动若干像素。"
+  },
+  { "id": "binding_tileset_MoveLeftOne", "value": "向左移动选择一个像素" },
+  {
+    "id": "binding_tileset_MoveLeftOne_Desc",
+    "value": "将图块选择向左移动一个像素。"
+  },
+  { "id": "binding_tileset_MoveRightOne", "value": "向右移动选择一个像素" },
+  {
+    "id": "binding_tileset_MoveRightOne_Desc",
+    "value": "将图块选择向右移动一个像素。"
+  },
+  { "id": "binding_tileset_MoveUpOne", "value": "向上移动选择一个像素" },
+  {
+    "id": "binding_tileset_MoveUpOne_Desc",
+    "value": "将图块选择向上移动一个像素。"
+  },
+  { "id": "binding_tileset_MoveDownOne", "value": "向下移动选择一个像素" },
+  {
+    "id": "binding_tileset_MoveDownOne_Desc",
+    "value": "将图块选择向下移动一个像素。"
+  },
+  { "id": "binding_tileset_addToPalette", "value": "将图块添加到调色板" },
+  {
+    "id": "binding_tileset_addToPalette_Desc",
+    "value": "将选中的图块添加到当前选中的调色板中。"
+  },
+  { "id": "binding_tileset_removeFromPalette", "value": "从调色板移除图块" },
+  {
+    "id": "binding_tileset_removeFromPalette_Desc",
+    "value": "将选中的图块从当前选中的调色板中移除。"
+  },
+  { "id": "binding_uvs_CenterCrosshair", "value": "居中十字准星" },
+  {
+    "id": "binding_uvs_CenterCrosshair_Desc",
+    "value": "将十字准星居中到选中的 UV。"
+  },
+  { "id": "binding_uvs_Mirror", "value": "镜像" },
+  { "id": "binding_uvs_Mirror_Desc", "value": "镜像选中的 UV。" },
+  { "id": "binding_uvs_Flip", "value": "翻转" },
+  { "id": "binding_uvs_Flip_Desc", "value": "翻转选中的 UV。" },
+  { "id": "binding_uvs_MirrorSeparately", "value": "分别镜像" },
+  {
+    "id": "binding_uvs_MirrorSeparately_Desc",
+    "value": "对每个选中的 UV 部分分别进行镜像，而不是作为一个整体。"
+  },
+  { "id": "binding_uvs_FlipSeparately", "value": "分别翻转" },
+  {
+    "id": "binding_uvs_FlipSeparately_Desc",
+    "value": "对每个选中的 UV 部分分别进行翻转，而不是作为一个整体。"
+  },
+  { "id": "binding_uvs_RotateLeft", "value": "向左旋转" },
+  { "id": "binding_uvs_RotateLeft_Desc", "value": "将选中的 UV 逆时针旋转。" },
+  { "id": "binding_uvs_RotateRight", "value": "向右旋转" },
+  { "id": "binding_uvs_RotateRight_Desc", "value": "将选中的 UV 顺时针旋转。" },
+  { "id": "binding_uvs_RotateLeftSeparately", "value": "分别向左旋转" },
+  {
+    "id": "binding_uvs_RotateLeftSeparately_Desc",
+    "value": "对每个选中的 UV 部分分别进行逆时针旋转，而不是作为一个整体。"
+  },
+  { "id": "binding_uvs_RotateRightSeparately", "value": "分别向右旋转" },
+  {
+    "id": "binding_uvs_RotateRightSeparately_Desc",
+    "value": "对每个选中的 UV 部分分别进行顺时针旋转，而不是作为一个整体。"
+  },
+  { "id": "binding_uvs_SelectAll", "value": "全选" },
+  { "id": "binding_uvs_SelectAll_Desc", "value": "选择所有 UV。" },
+  { "id": "binding_uvs_DeselectAll", "value": "取消全选" },
+  { "id": "binding_uvs_DeselectAll_Desc", "value": "取消选择所有 UV。" },
+  { "id": "binding_uvs_MoveLeft", "value": "向左移动" },
+  {
+    "id": "binding_uvs_MoveLeft_Desc",
+    "value": "根据 UV 精度值，将 UV 向左移动若干像素。"
+  },
+  { "id": "binding_uvs_MoveRight", "value": "向右移动" },
+  {
+    "id": "binding_uvs_MoveRight_Desc",
+    "value": "根据 UV 精度值，将 UV 向右移动若干像素。"
+  },
+  { "id": "binding_uvs_MoveUp", "value": "向上移动" },
+  {
+    "id": "binding_uvs_MoveUp_Desc",
+    "value": "根据 UV 精度值，将 UV 向上移动若干像素。"
+  },
+  { "id": "binding_uvs_MoveDown", "value": "向下移动" },
+  {
+    "id": "binding_uvs_MoveDown_Desc",
+    "value": "根据 UV 精度值，将 UV 向下移动若干像素。"
+  },
+  { "id": "binding_uvs_MoveLeftOne", "value": "向左移动一个像素" },
+  { "id": "binding_uvs_MoveLeftOne_Desc", "value": "将 UV 向左移动一个像素。" },
+  { "id": "binding_uvs_MoveRightOne", "value": "向右移动一个像素" },
+  {
+    "id": "binding_uvs_MoveRightOne_Desc",
+    "value": "将 UV 向右移动一个像素。"
+  },
+  { "id": "binding_uvs_MoveUpOne", "value": "向上移动一个像素" },
+  { "id": "binding_uvs_MoveUpOne_Desc", "value": "将 UV 向上移动一个像素。" },
+  { "id": "binding_uvs_MoveDownOne", "value": "向下移动一个像素" },
+  { "id": "binding_uvs_MoveDownOne_Desc", "value": "将 UV 向下移动一个像素。" },
+  { "id": "binding_uvs_ToggleMultiple", "value": "切换多重选择" },
+  {
+    "id": "binding_uvs_ToggleMultiple_Desc",
+    "value": "在重叠的 UV 之间选择单个或多个。"
+  },
+  { "id": "binding_uvs_SetFlat", "value": "展平 UV" },
+  {
+    "id": "binding_uvs_SetFlat_Desc",
+    "value": "将图块的选中 UV 展平成不拉伸像素的状态（必须选中图块的全部四个 UV）。"
+  },
+  { "id": "binding_uvs_Unwrap", "value": "展开 UV" },
+  {
+    "id": "binding_uvs_Unwrap_Desc",
+    "value": "展开一组图块的选中 UV，使它们彼此连接（必须选中图块的全部四个 UV，且场景中的图块边缘必须相互接触）。"
+  },
+  { "id": "binding_uvs_SetPixel", "value": "对齐到像素" },
+  {
+    "id": "binding_uvs_SetPixel_Desc",
+    "value": "将 UV 坐标对齐到最近的像素。"
+  },
+  { "id": "binding_uvs_RoundPrecision", "value": "对齐到精度" },
+  {
+    "id": "binding_uvs_RoundPrecision_Desc",
+    "value": "将 UV 坐标对齐到最近的精度值。"
+  },
+  { "id": "binding_uvs_RoundGrid", "value": "对齐到网格" },
+  { "id": "binding_uvs_RoundGrid_Desc", "value": "将 UV 坐标对齐到网格。" },
+  { "id": "binding_uvs_SetToCrosshair", "value": "设置到十字准星" },
+  {
+    "id": "binding_uvs_SetToCrosshair_Desc",
+    "value": "将 UV 坐标设置为 UV 十字准星的位置。"
+  },
+  { "id": "binding_uvs_CopyFrames", "value": "复制帧" },
+  { "id": "binding_uvs_CopyFrames_Desc", "value": "复制选中的 UV 动画帧。" },
+  { "id": "binding_uvs_PasteFrames", "value": "粘贴帧" },
+  {
+    "id": "binding_uvs_PasteFrames_Desc",
+    "value": "将已复制的帧粘贴到当前选中的 UV 动画中。"
+  },
+  { "id": "binding_uvs_RemoveFrames", "value": "移除帧" },
+  {
+    "id": "binding_uvs_RemoveFrames_Desc",
+    "value": "从当前选中的 UV 动画中移除选中的帧。"
+  },
+  { "id": "binding_painting_Eraser", "value": "橡皮擦" },
+  { "id": "binding_painting_Eraser_Desc", "value": "切换到橡皮擦工具。" },
+  { "id": "binding_painting_Pencil", "value": "铅笔" },
+  { "id": "binding_painting_Pencil_Desc", "value": "切换到铅笔工具。" },
+  { "id": "binding_painting_Eyedropper", "value": "吸管" },
+  { "id": "binding_painting_Eyedropper_Desc", "value": "切换到吸管工具。" },
+  { "id": "binding_painting_EyedropperMod", "value": "吸管修饰键" },
+  {
+    "id": "binding_painting_EyedropperMod_Desc",
+    "value": "使用绘制工具（铅笔、橡皮擦、油漆桶）时，按住此键可临时切换为吸管工具，松开后会切回原绘制工具。"
+  },
+  { "id": "binding_painting_Paintbucket", "value": "油漆桶" },
+  { "id": "binding_painting_Paintbucket_Desc", "value": "切换到油漆桶工具。" },
+  { "id": "binding_painting_Spraycan", "value": "喷漆罐" },
+  { "id": "binding_painting_Spraycan_Desc", "value": "切换到喷漆罐工具。" },
+  { "id": "binding_painting_Marquee", "value": "矩形选框" },
+  { "id": "binding_painting_Marquee_Desc", "value": "切换到矩形选框工具。" },
+  { "id": "binding_painting_Lasso", "value": "套索" },
+  { "id": "binding_painting_Lasso_Desc", "value": "切换到套索工具。" },
+  { "id": "binding_painting_Magicwand", "value": "魔棒" },
+  { "id": "binding_painting_Magicwand_Desc", "value": "切换到魔棒工具。" },
+  { "id": "binding_painting_Hand", "value": "手型工具" },
+  { "id": "binding_painting_Hand_Desc", "value": "切换到手型工具。" },
+  { "id": "binding_painting_Arrow", "value": "箭头工具" },
+  { "id": "binding_painting_Arrow_Desc", "value": "切换到箭头工具。" },
+  { "id": "binding_painting_Mirror", "value": "镜像" },
+  { "id": "binding_painting_Mirror_Desc", "value": "镜像所选内容。" },
+  { "id": "binding_painting_Flip", "value": "翻转" },
+  { "id": "binding_painting_Flip_Desc", "value": "翻转所选内容。" },
+  { "id": "binding_painting_RotateLeft", "value": "向左旋转" },
+  {
+    "id": "binding_painting_RotateLeft_Desc",
+    "value": "将所选内容逆时针旋转。"
+  },
+  { "id": "binding_painting_RotateRight", "value": "向右旋转" },
+  {
+    "id": "binding_painting_RotateRight_Desc",
+    "value": "将所选内容顺时针旋转。"
+  },
+  { "id": "binding_painting_SelectAll", "value": "全选" },
+  { "id": "binding_painting_SelectAll_Desc", "value": "选择整个画布。" },
+  { "id": "binding_painting_Deselect", "value": "取消选择" },
+  { "id": "binding_painting_Deselect_Desc", "value": "取消当前选择。" },
+  { "id": "binding_painting_Cut", "value": "剪切" },
+  { "id": "binding_painting_Cut_Desc", "value": "从画布中剪切所选内容。" },
+  { "id": "binding_painting_Copy", "value": "复制" },
+  { "id": "binding_painting_Copy_Desc", "value": "复制画布中选中的区域。" },
+  { "id": "binding_painting_Paste", "value": "粘贴" },
+  {
+    "id": "binding_painting_Paste_Desc",
+    "value": "粘贴已复制的画布内容或剪贴板内容。"
+  },
+  { "id": "binding_painting_SwitchColors", "value": "交换颜色" },
+  {
+    "id": "binding_painting_SwitchColors_Desc",
+    "value": "交换主颜色和副颜色。"
+  },
+  { "id": "binding_painting_MoveLeft", "value": "向左移动" },
+  { "id": "binding_painting_MoveLeft_Desc", "value": "将所选内容向左移动。" },
+  { "id": "binding_painting_MoveRight", "value": "向右移动" },
+  { "id": "binding_painting_MoveRight_Desc", "value": "将所选内容向右移动。" },
+  { "id": "binding_painting_MoveUp", "value": "向上移动" },
+  { "id": "binding_painting_MoveUp_Desc", "value": "将所选内容向上移动。" },
+  { "id": "binding_painting_MoveDown", "value": "向下移动" },
+  { "id": "binding_painting_MoveDown_Desc", "value": "将所选内容向下移动。" },
+  { "id": "binding_painting_Delete", "value": "删除" },
+  { "id": "binding_painting_Delete_Desc", "value": "删除所选内容。" },
+  { "id": "binding_painting_brushSizeScroll", "value": "画笔大小（滚轮）" },
+  {
+    "id": "binding_painting_brushSizeScroll_Desc",
+    "value": "按住此键并滚动鼠标滚轮以调整画笔大小。"
+  },
+  { "id": "binding_timeline_Delete", "value": "删除" },
+  { "id": "binding_timeline_Delete_Desc", "value": "删除所选内容。" },
+  { "id": "binding_timeline_Copy", "value": "复制" },
+  { "id": "binding_timeline_Copy_Desc", "value": "复制所选内容。" },
+  { "id": "binding_timeline_Paste", "value": "粘贴" },
+  { "id": "binding_timeline_Paste_Desc", "value": "粘贴所选内容。" },
+  { "id": "binding_timeline_SelectAll", "value": "全选" },
+  {
+    "id": "binding_timeline_SelectAll_Desc",
+    "value": "选择所有关键帧/片段/权重。"
+  },
+  { "id": "binding_timeline_DeselectAll", "value": "取消全选" },
+  {
+    "id": "binding_timeline_DeselectAll_Desc",
+    "value": "取消选择所有关键帧/片段/权重。"
+  },
+  { "id": "binding_timeline_prevKey", "value": "前一关键帧" },
+  {
+    "id": "binding_timeline_prevKey_Desc",
+    "value": "将播放头移动到前一个关键帧位置。"
+  },
+  { "id": "binding_timeline_nextKey", "value": "下一关键帧" },
+  {
+    "id": "binding_timeline_nextKey_Desc",
+    "value": "将播放头移动到下一个关键帧位置。"
+  },
+  { "id": "binding_timeline_play", "value": "播放" },
+  {
+    "id": "binding_timeline_play_Desc",
+    "value": "开始播放动画，若已播放则暂停。"
+  },
+  { "id": "binding_timeline_pause", "value": "暂停" },
+  { "id": "binding_timeline_pause_Desc", "value": "暂停动画播放。" },
+  { "id": "binding_timeline_stop", "value": "停止" },
+  { "id": "binding_timeline_stop_Desc", "value": "停止动画播放。" }
+]
